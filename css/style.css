@@ -1,1 +1,88 @@
-body {}
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*
+div.body{
+        background-color: #EEEEEE;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        }
+div.head-wrap{
+    height: 10em;
+    width:100%;
+}
+*/
+div.header{
+    font-size: 3em;
+    background-color: blue;
+    text-align: center;
+    width: 100vw;
+    top:0;
+    padding: 0.25em;
+    position: fixed;
+}
+div.header p{
+    margin: 0;
+padding: 0em;
+}
+p.by-line{
+    font-size: initial;
+}
+
+
+div.content{
+    top: 9em;
+    left: 20%;
+    width: 80%;
+    bottom: 0;
+    position: fixed;
+    overflow: auto;
+}
+div.nav-menu{
+    background-color: pink;
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 3em;
+    top: 6em;
+    position: fixed;
+
+}
+div.nav-menu-item{
+    width: 20%;
+    text-align: center;
+    top: 6em;
+    vertical-align: middle;
+    position: fixed;
+}
+div.nav-menu-item:hover{
+    background-color:green;
+}
+
+div.side-menu{
+    background-color:lightblue;
+    top: 9em;
+    bottom: 0;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    position:fixed;
+}
+div.side-menu-item{
+    padding: 1em;
+}
+div.side-menu-item:hover{
+    background-color:lightgreen;
+}
+div.side-active{
+    background-color: darkblue;
+    top: 0;
+    color: white;
+    position: sticky;
+}
+
