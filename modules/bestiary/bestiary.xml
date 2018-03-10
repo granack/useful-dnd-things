@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bestiary>
+    <monster>
+        <name>Orc</name>
+        <size>M</size>
+        <type>humanoid (orc), monster manual</type>
+        <alignment>chaotic evil</alignment>
+        <ac>13 (hide armor)</ac>
+        <hp>15 (2d8+6)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>12</dex>
+        <con>16</con>
+        <int>7</int>
+        <wis>11</wis>
+        <cha>10</cha>
+        <skill>Intimidation +2</skill>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Common, Orc</languages>
+        <cr>1/2</cr>
+        <trait>
+            <name>Aggressive</name>
+            <text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+        </trait>
+        <action>
+            <name>Greataxe</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.</text>
+            <attack>|5|1d12+3</attack>
+        </action>
+        <action>
+            <name>Javelin</name>
+            <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+            <attack>|5|1d6+3</attack>
+        </action>
+    </monster>
+</bestiary>
