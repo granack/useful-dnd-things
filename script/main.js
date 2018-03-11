@@ -69,6 +69,11 @@ function loadModules(){
 
 function loadMod(modnum){
   document.getElementById("content").innerText = modnum;
+
+  import(moduleList[modnum].path)
+    .then((module) => {
+      module.load(document.getElementById("content"));
+    });
 }
 
 function loadData(data){
