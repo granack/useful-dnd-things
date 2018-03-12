@@ -2,6 +2,8 @@
 
 var xmlParser= new DOMParser();
 var moduleList = new Array(0);
+var modules = new Array(0);
+var currentModuleIndex;
 
 function getTextFile(textfile, callback){
     fetch(textfile)
@@ -72,7 +74,10 @@ function loadMod(modnum){
 
   import(moduleList[modnum].path)
     .then((module) => {
-      module.load(document.getElementById("content"));
+      modules[modnum]=module;
+      currentModuleIndex=modnum;
+      clearMenu();
+      modules[currentModuleIndex].load(document.getElementById("content"));
     });
 }
 
@@ -90,13 +95,29 @@ document.addEventListener("DOMContentLoaded",  function(){
 
 });
 
-var menuItems = document.getElementsByClassName("side-menu-item");
-for (let item of menuItems){
-  item.addEventListener("click", function(){
-    for (let off of document.getElementsByClassName("side-active")){
-      off.classList.remove("side-active");
-    }
-    this.classList.add("side-active");
-    // placeholder for function to load appropriate data
-  });
+function clearMenu(){
+  document.getElementById('side-menu').innerHTML="";
 }
+function loadMenu(menuItemList){
+
+  let menuItemTemplate=document.createElement("DIV");
+  menuItemTemplate.classList.add("side-menu-item");
+  for (let i=0; i<menuItemList.length; i++){
+    let node = menuItemTemplate.cloneNode(true);
+    node.addEventListener("click", function(){
+      if(!this.classList.contains("side-active")){
+        for (let off of document.getElementsByClassName("side-active")){
+          off.classList.remove("side-active");
+        }
+        this.classList.add("side-active");
+        modules[currentModuleIndex].menuClick(this.getAttribute("number")); // do something when it's clicked, basically let the module know
+      }
+    });
+    node.innerText=menuItemList[i];
+    node.setAttribute("number", i);
+    document.getElementById('side-menu').appendChild(node);
+  }
+}
+
+
+

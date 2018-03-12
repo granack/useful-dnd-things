@@ -1,3 +1,10 @@
+/*
+useful things styling
+RGB (50,50,250) is a nice blue. AKA #3232FA
+menus' hover color is lightgreen
+active menu items' color is darkblue
+*/
+
 body {
     font-family: sans-serif;
     padding: 0;
@@ -6,7 +13,7 @@ body {
 
 div.header{
     font-size: 3em;
-    background-color: blue;
+    background-color: #3232FA;
     text-align: center;
     width: 100vw;
     top:0;
@@ -22,7 +29,7 @@ p.by-line{
 }
 
 #mod-menu{
-    background-color: pink;
+    background-color: #3232FA;
     margin:0;
     padding: 0;
     width: 100%;
@@ -39,14 +46,15 @@ div.mod-menu-item{
     display: inline-block;
 }
 div.mod-menu-item:hover{
-    background-color:green;
+    background-color: lightgreen;
 }
 div.mod-active{
-    background-color: yellow;
+    background-color: darkblue;
+    color: white;
 }
 
 #side-menu{
-    background-color:lightblue;
+    background-color: #3232FA;
     top: 9em;
     bottom: 0;
     width: 20%;
