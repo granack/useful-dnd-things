@@ -41,6 +41,7 @@ p.by-line{
 div.mod-menu-item{
     width: 20%;
     text-align: center;
+    text-transform: capitalize;
     top: 6em;
     vertical-align: middle;
     display: inline-block;
@@ -63,6 +64,9 @@ div.mod-active{
     overflow: auto;
     position:fixed;
 }
+#side-menu.no-menu{
+    display: none;
+}
 div.side-menu-item{
     padding: 1em;
 }
@@ -84,4 +88,8 @@ div.side-active{
     position: fixed;
     overflow: auto;
     padding: 1%
+}
+#content.no-menu{
+    left:0;
+    width: 98%;
 }

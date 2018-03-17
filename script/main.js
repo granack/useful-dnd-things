@@ -71,12 +71,11 @@ function loadModules(){
 
 function loadMod(modnum){
   document.getElementById("content").innerText = modnum;
-
+  currentModuleIndex=modnum;
+  clearMenu();
   import(moduleList[modnum].path)
     .then((module) => {
       modules[modnum]=module;
-      currentModuleIndex=modnum;
-      clearMenu();
       modules[currentModuleIndex].load(document.getElementById("content"));
     });
 }
@@ -97,7 +96,10 @@ document.addEventListener("DOMContentLoaded",  function(){
 
 function clearMenu(){
   document.getElementById('side-menu').innerHTML="";
+  document.getElementById("side-menu").classList.add("no-menu") ;
+  document.getElementById("content").classList.add("no-menu");
 }
+
 function loadMenu(menuItemList){
 
   let menuItemTemplate=document.createElement("DIV");
@@ -116,6 +118,14 @@ function loadMenu(menuItemList){
     node.innerText=menuItemList[i];
     node.setAttribute("number", i);
     document.getElementById('side-menu').appendChild(node);
+  }
+  if(menuItemList.length==0) {
+    document.getElementById("side-menu").classList.add("no-menu") ;
+    document.getElementById("content").classList.add("no-menu");
+  }
+  else {
+    document.getElementById("side-menu").classList.remove("no-menu") ;
+    document.getElementById("content").classList.remove("no-menu");
   }
 }
 

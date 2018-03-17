@@ -12,11 +12,13 @@ eventually, some useful things for D&amp;D 5e
 requires a web server: if you have python installed, run python -m SimpleHTTPServer in the repo's root directory
 
 so far:
-basic site is a header that has a 'module menu.' modules are loaded from folders in the '/modules/' directory. module names are taken from the directory names. an attempt is made to import a *modulename*.js file. This file needs to export a function *load(content)*, where content is a div representing the main content area. The load() function should call *loadMenu(Array)* where Array is an array of strings to populate the side menu. When a side menu item is clicked, it will call the exported function *menuClick(index)*, index being the index of the Array used to build the menu.
+basic site is a header that has a 'module menu.' modules are loaded from folders in the '/modules/' directory. module names are taken from the directory names then Capitalized. an attempt is made to import a *modulename*.js file. This file needs to export a function *load(content)*, where content is a div representing the main content area. The load() function should call *loadMenu(Array)* where Array is an array of strings to populate the side menu. When a side menu item is clicked, it will call the exported function *menuClick(index)*, index being the index of the Array used to build the menu.
+
+module names MUST NOT contain spaces, and must only use characters in a valid file name.
 
 modules MUST export:
 - load(content) - content is main content div
-- menuClick(index) - called when side menu item is clicked.
+- menuClick(index) - called when side menu item is clicked. Only required if there is a side menu.
 
 modules MAY call:
 - loadMenu(Array) - build or rebuild side menu from string array. If not called at all, the side bar remains blank.
