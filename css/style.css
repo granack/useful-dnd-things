@@ -46,6 +46,9 @@ div.mod-menu-item{
     vertical-align: middle;
     display: inline-block;
 }
+div.mod-menu-item.hidden{
+    visibility: hidden;
+}
 div.mod-menu-item:hover{
     background-color: lightgreen;
 }
