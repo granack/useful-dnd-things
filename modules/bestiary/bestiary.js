@@ -2,23 +2,29 @@
 
 var bMenuItemList = new Array(0);
 var bContent;
-var monsters;
+var bMonsters;
+var bxsl;
 
-// bMenuItemList= ["Beast 1","Beast 2"];
+var newstyle = document.createElement("link"); // Create a new link Tag
+newstyle.setAttribute("rel", "import");
+// newstyle.setAttribute("type", "text/html");
+newstyle.setAttribute("href", "/modules/bestiary/statblock.html");
+document.getElementsByTagName("head")[0].appendChild(newstyle);
 
- getTextFile("/modules/bestiary/bestiary.xml",processBestiaryXml);
+getTextFile("/modules/bestiary/bestiary.xml",processBestiaryXml);
+getTextFile("/modules/bestiary/bestiary.xsl",processBestiaryXsl);
 
 function processBestiaryXml(xml) {
-  let monName;
-  var xmlDoc = xmlParser.parseFromString(xml, "application/xml");
-
-  monsters = xmlDoc.getElementsByTagName("monster");
-  for (let i = 0; i < monsters.length; i++) {
-    bMenuItemList.push(monsters[i].children[0].textContent);
+  let xmlDoc = xmlParser.parseFromString(xml, "application/xml");
+  bMonsters = xmlDoc.getElementsByTagName("monster");
+  for (let i = 0; i < bMonsters.length; i++) {
+    bMenuItemList.push(bMonsters[i].children[0].textContent);
   }
-
 }
 
+function processBestiaryXsl(xsl) {
+  bxsl = xmlParser.parseFromString(xsl, "application/xml");
+}
 
 export function load(content){
   bContent=content;
@@ -29,5 +35,10 @@ export function load(content){
 
 export function menuClick(index) {
   // alert("Menu item" + index + "clicked!.");
-  bContent.innerText = monsters[index].children[0].textContent;
+  let xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(bxsl);
+  let resultDocument = xsltProcessor.transformToFragment(bMonsters[index], document);
+  bContent.innerText = resultDocument.textContent;
+  refreshDisplay(window, document);
+
 }
