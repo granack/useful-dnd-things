@@ -24,3 +24,9 @@ modules MAY call:
 - loadMenu(Array) - build or rebuild side menu from string array. If not called at all, the side bar remains blank.
 
 content div is entirely in the control of the module. do the stuff there.
+
+
+--- notices
+Bestiary is using the CSS (and used the Example HTML as an example) from https://codepen.io/retractedhack/pen/gPLpWe, which in turn is absed on https://valloric.github.io/statblock5e/
+
+

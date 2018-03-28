@@ -242,8 +242,9 @@
 
 var thatDoc = document;
 var thisDoc = (thatDoc.currentScript || thatDoc._currentScript).ownerDocument;
+myElements(window, document)
 
-function refreshDisplay(window, document) {
+function myElements(window, document) {
     intoTemplate('tapered-rule', window, document);
     intoTemplate('top-stats', window, document);
     intoTemplate('creature-heading', window, document);
@@ -254,11 +255,11 @@ function refreshDisplay(window, document) {
 }
 
 function intoTemplate(elemName, window,document){
-    let proto = Object.create(HTMLElement.prototype, {
+    var proto = Object.create(HTMLElement.prototype, {
         createdCallback: {
             value: function() {
-                let template = thisDoc.getElementById(elemName);
-                let clone = thatDoc.importNode(template.content, true);
+                var template = thisDoc.getElementById(elemName);
+                var clone = thatDoc.importNode(template.content, true);
                 this.createShadowRoot().appendChild(clone);
                 }
         }

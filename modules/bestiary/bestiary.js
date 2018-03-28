@@ -6,19 +6,34 @@ var bMonsters;
 var bxsl;
 
 var newstyle = document.createElement("link"); // Create a new link Tag
-newstyle.setAttribute("rel", "import");
-// newstyle.setAttribute("type", "text/html");
-newstyle.setAttribute("href", "/modules/bestiary/statblock.html");
+newstyle.setAttribute("rel", "stylesheet");
+newstyle.setAttribute("type", "text/css");
+newstyle.setAttribute("href", "/modules/bestiary/statblock.css");
 document.getElementsByTagName("head")[0].appendChild(newstyle);
 
-getTextFile("/modules/bestiary/bestiary.xml",processBestiaryXml);
-getTextFile("/modules/bestiary/bestiary.xsl",processBestiaryXsl);
+newstyle = document.createElement("link"); // Create a new link Tag
+newstyle.setAttribute("rel", "stylesheet");
+newstyle.setAttribute("type", "text/css");
+newstyle.setAttribute("href", "https://fonts.googleapis.com/css?family=Libre+Baskerville:700");
+document.getElementsByTagName("head")[0].appendChild(newstyle);
 
-function processBestiaryXml(xml) {
-  let xmlDoc = xmlParser.parseFromString(xml, "application/xml");
-  bMonsters = xmlDoc.getElementsByTagName("monster");
+newstyle = document.createElement("link"); // Create a new link Tag
+newstyle.setAttribute("rel", "stylesheet");
+newstyle.setAttribute("type", "text/css");
+newstyle.setAttribute("href", "https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic");
+document.getElementsByTagName("head")[0].appendChild(newstyle);
+
+
+
+getTextFile("/modules/bestiary/bestiary.html",processBestiaryHtml);
+
+
+
+function processBestiaryHtml(myFile) {
+  let htmlDoc = xmlParser.parseFromString(myFile, "text/html");
+  bMonsters = htmlDoc.getElementsByClassName("monster");
   for (let i = 0; i < bMonsters.length; i++) {
-    bMenuItemList.push(bMonsters[i].children[0].textContent);
+    bMenuItemList.push(bMonsters[i].getElementsByTagName("h1")[0].innerText);
   }
 }
 
@@ -31,14 +46,22 @@ export function load(content){
   bContent.innerText="Bestiary loaded.";
   loadMenu(bMenuItemList);
 
+
 }
 
 export function menuClick(index) {
   // alert("Menu item" + index + "clicked!.");
-  let xsltProcessor = new XSLTProcessor();
+  /*let xsltProcessor = new XSLTProcessor();
   xsltProcessor.importStylesheet(bxsl);
   let resultDocument = xsltProcessor.transformToFragment(bMonsters[index], document);
-  bContent.innerText = resultDocument.textContent;
-  refreshDisplay(window, document);
-
+  if(resultDocument==null){
+    bContent.innerText="result Doc null: transform completed but result was invalid HTML";
+  } else if(resultDocument.childElementCount==0) {
+    bContent.innerText = bxsl.childNodes[1].textContent;
+  } else {
+    bContent.innerText = "";
+    bContent.appendChild(resultDocument);
+  } */
+  bContent.innerText = "";
+  bContent.appendChild(bMonsters[index]);
 }
