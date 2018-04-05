@@ -1,7 +1,7 @@
 Tools for Bestiary, the Useful D&D Thing module by Granack
 
 These tools assist in creating the 'bestiary.html' file that contains
-all the monster data.
+all the monster data. They use Python3.
 
 here's how it works:
 
@@ -21,7 +21,7 @@ exported to csv, then I run 'csv2xml.py' to convert it to xml calling it
 There is another set of xml files of monster data I found for all official
 WOTC sources and Kobold Press' Tome of Beasts. I doubt they are legal, so
 I'm not sharing which GitHub project is sharing the files. Anyway, each
-source is it's own xml file, so I run merge_compendium.py to combine them
+source is its own xml file, so I run merge_compendium.py to combine them
 into a single file, 'allsources.xml'.
 
 now, we merge our 'extra.xml' into 'allsources.xml' using merge_extra.py
