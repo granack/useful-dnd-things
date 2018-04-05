@@ -79,6 +79,7 @@ div.side-menu-item:hover{
 div.side-active{
     background-color: darkblue;
     top: 0;
+    bottom: 0;
     color: white;
     position: sticky;
 }

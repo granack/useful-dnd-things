@@ -13,7 +13,7 @@
     <xsl:output method="html"/>
 
     <xsl:template match="/">
-    <xsl:for-each select="bestiary/monster">
+    <xsl:for-each select="compendium/monster">
         <xsl:sort select="alt_sort"/>
 
         <!-- Get Variables -->
@@ -132,12 +132,13 @@
     <!-- build the HTML fragment -->
     <div class="monster">
         <xsl:choose>
-          <xsl:when test="$unique">
+          <xsl:when test="$unique !=''">
             <p class="unique"><xsl:value-of select="$name_proper" /> is a unique individual.</p>
           </xsl:when>
         </xsl:choose>
     <div class="stat-block">
         <hr class="orange-border" />
+        <div class="section">
         <div class="creature-heading">
             <h1><xsl:value-of select="$monster_name" /> </h1>
             <h2><xsl:value-of select="$size" />  <xsl:value-of select="substring-before($type,',')"/>, <xsl:value-of select="$alignment" /></h2>
@@ -153,7 +154,7 @@
         <!-- armor class -->
         <div class="property-line first">
             <h4>Armor Class</h4>
-            <p><xsl:value-of select="$ac" /><xsl:if test="$ac_note != ''"> <xsl:text>(</xsl:text><xsl:value-of select="$ac_note"/><xsl:text>)</xsl:text>
+            <p><xsl:value-of select="$ac" /><xsl:if test="$ac_note != ''"> (<xsl:value-of select="$ac_note"/>)
         </xsl:if></p></div>
 
         <!-- hp -->
@@ -282,7 +283,6 @@
         <div class="property-line">
         <h4>Challenge Rating</h4>
         <p><xsl:value-of select="$cr" /> (
-
         <!-- XP -->
         <xsl:choose>
           <xsl:when test="$cr = '0'">
@@ -390,8 +390,7 @@
           <xsl:otherwise>
             <xsl:text>0</xsl:text>
           </xsl:otherwise>
-        </xsl:choose>
-            XP)</p>
+        </xsl:choose> XP)</p>
         </div>
 
         <!-- tapered-rule -->
@@ -408,9 +407,7 @@
                 <h4><xsl:value-of select="name" /></h4>
                 <xsl:for-each select="text">
                     <p>
-                    <xsl:variable name="pattern" select="str:split($spell_list, ', ')" />
-                    <xsl:variable name="replace" select="str:split(concat('&lt;i&gt;',str:replace($spell_list,', ','&lt;/i&gt;, &lt;i&gt;'),'&lt;/i&gt;'),', ')" />
-                    <xsl:value-of select="str:replace(.,$pattern,$replace)" />
+                    <xsl:value-of select="str:replace(.,str:split($spell_list, ', '),str:split(concat('&lt;i&gt;',str:replace($spell_list,', ','&lt;/i&gt;, &lt;i&gt;'),'&lt;/i&gt;'),', '))" disable-output-escaping="yes" />
                     </p>
                 </xsl:for-each>
             </div> <!-- property-block -->
@@ -418,7 +415,6 @@
 
         <!-- Actions -->
         <xsl:if test="action">
-            <div class="section-right">
                 <div class="actions">
                     <h3>Actions</h3>
                     <xsl:for-each select="action">
@@ -436,29 +432,25 @@
                         </div> <!-- property-block -->
                     </xsl:for-each>
                 </div> <!-- actions -->
-            </div> <!-- section-right -->
         </xsl:if> <!-- actions section -->
 
         <!-- reaction -->
         <xsl:if test="reaction">
-            <div class="section-right">
                 <div class="actions">
                     <h3>Reactions</h3>
                     <xsl:for-each select="reaction">
                         <div class="property-block">
                             <h4><xsl:value-of select="name" /></h4>
                             <xsl:for-each select="text">
-                                <p><xsl:value-of select="." /></p>
+                                <p><xsl:value-of select="." disable-output-escaping="yes" /></p>
                             </xsl:for-each>
                         </div> <!-- property-block -->
                     </xsl:for-each>
                 </div> <!-- (re)actions -->
-            </div> <!-- section-right -->
         </xsl:if> <!-- reaction section -->
 
         <!-- legendary -->
         <xsl:if test="legendary">
-            <div class="section-right">
                 <div class="actions">
                     <h3>Legendary Actions</h3>
                     <div class="property-block">
@@ -473,15 +465,14 @@
                         <div class="property-block">
                         <h4><xsl:value-of select="name" /></h4>
                         <xsl:for-each select="text">
-                            <p><xsl:value-of select="." /></p>
+                            <p><xsl:value-of select="." disable-output-escaping="yes" /></p>
                         </xsl:for-each>
                         </div> <!-- property-block -->
                     </xsl:for-each>
                 </div> <!-- (legendary) actions -->
-            </div> <!-- section-right -->
         </xsl:if> <!-- legendary actions -->
 
-
+        </div> <!-- section -->
         </div> <!-- stat-block -->
         <p>Source(s):
         <xsl:choose>

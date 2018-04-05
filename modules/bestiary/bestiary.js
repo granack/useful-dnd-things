@@ -25,7 +25,9 @@ document.getElementsByTagName("head")[0].appendChild(newstyle);
 
 getTextFile("/modules/bestiary/bestiary.html",processBestiaryHtml);
 
+
 function processBestiaryHtml(myFile) {
+  bMenuItemList.push("Choose Filters");
   let htmlDoc = xmlParser.parseFromString(myFile, "text/html");
   bMonsters = htmlDoc.getElementsByClassName("monster");
   for (let i = 0; i < bMonsters.length; i++) {
@@ -39,11 +41,21 @@ function processBestiaryXsl(xsl) {
 
 export function load(content){
   bContent=content;
-  bContent.innerText="Bestiary loaded.";
+  bContent.innerText="Bestiary loading...";
   loadMenu(bMenuItemList);
+  bContent.innerText="Bestiary loaded! Click a monster!";
 }
 
 export function menuClick(index) {
   bContent.innerText = "";
-  bContent.appendChild(bMonsters[index].cloneNode(true));
+  if(index==0){
+    bContent.innerText = "Filters Here";
+  }
+  else {
+    bContent.appendChild(bMonsters[index-1].cloneNode(true));
+    let box=bContent.getElementsByClassName("stat-block")[0]
+    if(box.clientHeight > 1000) {
+      box.classList.add("wide");
+    }
+  }
 }

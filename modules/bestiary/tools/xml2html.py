@@ -9,7 +9,7 @@ parser.add_argument(
         '-i','--infile',
         nargs='?',
         help="Input file. Expects XML. If not specified, uses 'input.xml'",
-        default="bestiary.xml",
+        default="complete/bestiary.xml",
         metavar="input_file"
         )
 parser.add_argument(

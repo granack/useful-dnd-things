@@ -7,30 +7,21 @@ div.stat-block {
   margin: 20px;
   display: inline-block;
   vertical-align: top;
-  width: 17%;
+  width: 40%;
   min-width:330px;
   background: #FDF1DC;
   padding: 5px 10px 20px;
   box-shadow: 0 0 1.5em #867453;
 }
 .stat-block.wide{
-  width: 46.5%;
-  min-width: 560px;
-  text-align: center;
+  width: 80%;
+  min-width: 700px;
+  /* text-align: center; */
 }
-.stat-block.wide .section-left,
-.stat-block.wide .section-right{
-  display: inline-block;
-  vertical-align: top;
-  width: 48%;
-  text-align: left;
+.stat-block.wide .section{
+    column-count: 2;
 }
-.stat-block.wide .section-left{
-  margin-right: 1.5%;
-}
-.stat-block.wide .section-right{
-  margin-left: 1.5%;
-}
+
 @media screen and (max-width: 675px){
     .stat-block.wide{
         min-width: 330px;
@@ -141,7 +132,9 @@ div.stat-block {
  /* font-style: italic; */
 }
 .property-block{
-  padding: 10px 2px 0;
+    padding: 10px 2px 0;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
 }
 .actions h3{
   border-bottom: 1px solid #7A200D;
@@ -153,6 +146,7 @@ div.stat-block {
   margin: 20px 0 0;
   padding: 0 0 10px;
   text-indent: 5px;
+  break-after: avoid;
 }
 .actions{
   margin: 0 0 20px;
