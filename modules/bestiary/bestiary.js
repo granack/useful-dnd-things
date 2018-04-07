@@ -49,7 +49,7 @@ export function load(content){
 export function menuClick(index) {
   bContent.innerText = "";
   if(index==0){
-    bContent.innerText = "Filters Here";
+    bContent.innerHTML = "<h2>Filters Here.</h2> There will be some, but there aren't any yet. <h6>Ignore me: continue on</h6>";
   }
   else {
     bContent.appendChild(bMonsters[index-1].cloneNode(true));
