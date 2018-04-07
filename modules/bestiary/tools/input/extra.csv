@@ -1,317 +1,725 @@
-name
-Aboleth
-Acolyte
-Adult Black Dragon
-Adult Blue Dragon
-Adult Brass Dragon
-Adult Bronze Dragon
-Adult Copper Dragon
-Adult Gold Dragon
-Adult Green Dragon
-Adult Red Dragon
-Adult Silver Dragon
-Adult White Dragon
-Air Elemental
-Ancient Black Dragon
-Ancient Blue Dragon
-Ancient Brass Dragon
-Ancient Bronze Dragon
-Ancient Copper Dragon
-Ancient Gold Dragon
-Ancient Green Dragon
-Ancient Red Dragon
-Ancient Silver Dragon
-Ancient White Dragon
-Androsphinx
-Animated Armor
-Ankheg
-Ape
-Archmage
-Assassin
-Awakened Shrub
-Awakened Tree
-Axe Beak
-Azer
-Baboon
-Badger
-Balor
-Bandit
-Bandit Captain
-Barbed Devil
-Basilisk
-Bat
-Bat Swarm
-Bearded Devil
-Behir
-Berserker
-Black Bear
-Black Dragon Wyrmling
-Black Pudding
-Blink Dog
-Blood Hawk
-Blue Dragon Wyrmling
-Boar
-Bone Devil
-Brass Dragon Wyrmling
-Bronze Dragon Wyrmling
-Brown Bear
-Bugbear
-Bulette
-Camel
-Cat
-Centaur
-Chain Devil
-Chimera
-Chuul
-Clay Golem
-Cloaker
-Cloud Giant
-Cockatrice
-Commoner
-Constrictor Snake
-Copper Dragon Wyrmling
-Couatl
-Crab
-Crocodile
-Cult Fanatic
-Cultist
-Darkmantle
-Death Dog
-Deep Gnome (Svirfneblin)
-Deer
-Deva
-Dire Wolf
-Djinni
-Doppelganger
-Draft Horse
-Dragon Turtle
-Dretch
-Drider
-Drow
-Druid
-Dryad
-Duergar
-Dust Mephit
-Eagle
-Earth Elemental
-Efreeti
-Elephant
-Elk
-Erinyes
-Ettercap
-Ettin
-Fire Elemental
-Fire Giant
-Flesh Golem
-Flying Snake
-Flying Sword
-Frog
-Frost Giant
-Gargoyle
-Gelatinous Cube
-Ghast
-Ghost
-Ghoul
-Giant Ape
-Giant Badger
-Giant Bat
-Giant Boar
-Giant Centipede
-Giant Constrictor Snake
-Giant Crab
-Giant Crocodile
-Giant Eagle
-Giant Elk
-Giant Fire Beetle
-Giant Frog
-Giant Goat
-Giant Hyena
-Giant Lizard
-Giant Octopus
-Giant Owl
-Giant Poisonous Snake
-Giant Rat
-Giant Scorpion
-Giant Sea Horse
-Giant Shark
-Giant Spider
-Giant Toad
-Giant Vulture
-Giant Wasp
-Giant Weasel
-Giant Wolf Spider
-Gibbering Mouther
-Glabrezu
-Gladiator
-Gnoll
-Goat
-Goblin
-Gold Dragon Wyrmling
-Gorgon
-Gray Ooze
-Green Dragon Wyrmling
-Green Hag
-Grick
-Griffon
-Grimlock
-Guard
-Guardian Naga
-Gynosphinx
-Half-Red Dragon Veteran
-Harpy
-Hawk
-Hell Hound
-Hezrou
-Hill Giant
-Hippogriff
-Homunculus
-Horned Devil
-Hunter Shark
-Hydra
-Hyena
-Ice Devil
-Ice Mephit
-Imp
-Insect Swarm
-Invisible Stalker
-Iron Golem
-Jackal
-Killer Whale
-Knight
-Kobold
-Kraken
-Lamia
-Lemure
-Lich
-Lion
-Lizard
-Lizardfolk
-Mage
-Magma Mephit
-Magmin
-Mammoth
-Manticore
-Marilith
-Mastiff
-Medusa
-Merfolk
-Merrow
-Mimic
-Minotaur
-Minotaur Skeleton
-Mule
-Mummy
-Mummy Lord
-Nalfeshnee
-Night Hag
-Nightmare
-Noble
-Ochre Jelly
-Octopus
-Ogre
-Ogre Zombie
-Oni
-Orc
-Otyugh
-Owl
-Owlbear
-Panther
-Pegasus
-Phase Spider
-Pit Fiend
-Planetar
-Plesiosaurus
-Poisonous Snake
-Poisonous Snake Swarm
-Polar Bear
-Pony
-Priest
-Pseudodragon
-Purple Worm
-Quasit
-Quipper
-Quipper Swarm
-Rakshasa
-Rat
-Rat Swarm
-Raven
-Raven Swarm
-Red Dragon Wyrmling
-Reef Shark
-Remorhaz
-Rhinoceros
-Riding Horse
-Roc
-Roper
-Rug of Smothering
-Rust Monster
-Saber-Toothed Tiger
-Sahuagin
-Salamander
-Satyr
-Scorpion
-Scout
-Sea Hag
-Sea Horse
-Shadow
-Shambling Mound
-Shield Guardian
-Shrieker
-Silver Dragon Wyrmling
-Skeleton
-Solar
-Specter
-Spider
-Spirit Naga
-Sprite
-Spy
-Steam Mephit
-Stirge
-Stone Giant
-Stone Golem
-Storm Giant
-Succubus/Incubus
-Tarrasque
-Thug
-Tiger
-Treant
-Tribal Warrior
-Triceratops
-Troll
-Tyrannosaurus Rex
-Unicorn
-Vampire
-Vampire Spawn
-Veteran
-Violet Fungus
-Vrock
-Vulture
-Warhorse
-Warhorse Skeleton
-Water Elemental
-Weasel
-Werebear
-Wereboar
-Wererat
-Weretiger
-Werewolf
-White Dragon Wyrmling
-Wight
-Will-o'-Wisp
-Winter Wolf
-Wolf
-Worg
-Wraith
-Wyvern
-Xorn
-Young Black Dragon
-Young Blue Dragon
-Young Brass Dragon
-Young Bronze Dragon
-Young Copper Dragon
-Young Gold Dragon
-Young Green Dragon
-Young Red Dragon
-Young Silver Dragon
-Young White Dragon
-Zombie
+name,environment,unique,alt_sort,short_desc,long_desc,sources
+Aboleth,"aquatic, coast",,Aboleth,,,"Monster Manual: 13, Princes of the Apocalypse Online Supplement v1.0: 6, SRD 5.1: 261"
+Abominable Beauty,,,Abominable Beauty,,,Tome of Beasts: 11
+Accursed Defiler,,,Accursed Defiler,,,Tome of Beasts: 12
+Acolyte,"arctic, desert, dungeon, forest, grassland, mountain, swamp, underground, urban",,Acolyte,"**Acolytes** are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.",,"Basic Rules v1: 53, HotDQ supplement: 4, Monster Manual: 342, SRD 5.1: 395"
+Adult Black Dragon,swamp,,Dragon Chromatic Black 2Adult,,,"Monster Manual: 88, Princes of the Apocalypse Online Supplement v1.0: 7, SRD 5.1: 281"
+Adult Blue Dragon,desert,,Dragon Chromatic Blue 2Adult,,,"HotDQ supplement: 4, Monster Manual: 91, SRD 5.1: 283"
+Adult Brass Dragon,"cave, underground",,Dragon Metallic Brass 2Adult,,,"Monster Manual: 105, SRD 5.1: 291"
+Adult Bronze Dragon,coast,,Dragon Metallic Bronze 2Adult,,,"Monster Manual: 108, Princes of the Apocalypse Online Supplement v1.0: 7, SRD 5.1: 294"
+Adult Cave Dragon,,,Dragon Other Cave 2Adult,,,Tome of Beasts: 125
+Adult Copper Dragon,"cave, desert, grassland",,Dragon Metallic Copper 2Adult,,,"Monster Manual: 112, SRD 5.1: 296"
+Adult Flame Dragon,,,Dragon Other Flame 2Adult,,,Tome of Beasts: 129
+Adult Gold Dragon,"mountain, ruins",,Dragon Metallic Gold 2Adult,,,"Monster Manual: 114, SRD 5.1: 299"
+Adult Green Dragon,forest,,Dragon Chromatic Green 2Adult,,,"Monster Manual: 94, SRD 5.1: 285"
+Adult Mithral Dragon,,,Dragon Other Mithral 2Adult,,,Tome of Beasts: 133
+Adult Red Dragon,mountain,,Dragon Chromatic Red 2Adult,,,"Basic Rules v1: 8, Monster Manual: 98, SRD 5.1: 287"
+Adult Rime Worm,,,Rime Worm Adult,,,Tome of Beasts: 327
+Adult Sea Dragon,,,Dragon Other Sea 2Adult,,,Tome of Beasts: 135
+Adult Silver Dragon,"arctic, mountain",,Dragon Metallic Silver 2Adult,,,"Monster Manual: 117, SRD 5.1: 302"
+Adult Void Dragon,,,Dragon Other Void 2Adult,,,Tome of Beasts: 139
+Adult White Dragon,"arctic, cave, underground",,Dragon Chromatic White 2Adult,,,"HotDQ supplement: 5, Monster Manual: 101, SRD 5.1: 289"
+Adult Wind Dragon,,,Dragon Other Wind 2Adult,,,Tome of Beasts: 143
+Air Elemental,"arctic, cave, coast, desert, dungeon, forest, grassland, mountain, planar, ruins, swamp, underground",,Elemental Air,,,"Basic Rules v1: 9, HotDQ supplement: 5, Monster Manual: 124, SRD 5.1: 305"
+"Akyishigal, Demon Lord of Cockroaches",,unique,Demon 1Lord Akyishigal,,,Tome of Beasts: 82
+Al-Aeshma Genie,,,Genie Al-Aeshma,,,Tome of Beasts: 211
+Ala,,,Ala,,,Tome of Beasts: 13
+Alehouse Drake,,,Drake Alehouse,,,Tome of Beasts: 148
+Algorith,,,Algorith,,,Tome of Beasts: 14
+"Alquam, Demon Lord of Night",,unique,Demon 1Lord Alquam,,,Tome of Beasts: 84
+Alseid,,,Alseid,,,Tome of Beasts: 15
+Alseid Grovekeeper,,,Alseid Grovekeeper,,,Tome of Beasts: 15
+Amphiptere,,,Amphiptere,,,Tome of Beasts: 16
+Ancient Black Dragon,swamp,,Dragon Chromatic Black 1Ancient,,,"Monster Manual: 87, SRD 5.1: 280"
+Ancient Blue Dragon,desert,,Dragon Chromatic Blue 1Ancient,,,"Monster Manual: 90, SRD 5.1: 282"
+Ancient Brass Dragon,"cave, underground",,Dragon Metallic Brass 1Ancient,,,"Monster Manual: 104, SRD 5.1: 290"
+Ancient Bronze Dragon,coast,,Dragon Metallic Bronze 1Ancient,,,"Monster Manual: 107, SRD 5.1: 293"
+Ancient Copper Dragon,"cave, desert, grassland",,Dragon Metallic Copper 1Ancient,,,"Monster Manual: 110, SRD 5.1: 295"
+Ancient Flame Dragon,,,Dragon Other Flame 1Ancient,,,Tome of Beasts: 128
+Ancient Gold Dragon,"mountain, ruins",,Dragon Metallic Gold 1Ancient,,,"Monster Manual: 113, SRD 5.1: 298"
+Ancient Green Dragon,forest,,Dragon Chromatic Green 1Ancient,,,"Monster Manual: 93, SRD 5.1: 284"
+Ancient Mithral Dragon,,,Dragon Other Mithral 1Ancient,,,Tome of Beasts: 132
+Ancient Red Dragon,mountain,,Dragon Chromatic Red 1Ancient,,,"Monster Manual: 97, SRD 5.1: 286"
+Ancient Sea Dragon,,,Dragon Other Sea 1Ancient,,,Tome of Beasts: 135
+Ancient Silver Dragon,"arctic, mountain",,Dragon Metallic Silver 1Ancient,,,"Monster Manual: 116, SRD 5.1: 301"
+Ancient Titan,,,Titan Ancient,,,Tome of Beasts: 380
+Ancient Void Dragon,,,Dragon Other Void 1Ancient,,,Tome of Beasts: 138
+Ancient White Dragon,"arctic, cave, underground",,Dragon Chromatic White 1Ancient,,,"Monster Manual: 100, SRD 5.1: 288"
+Ancient Wind Dragon,,,Dragon Other Wind 1Ancient,,,Tome of Beasts: 142
+Andrenjinyi,,,Andrenjinyi,,,Tome of Beasts: 17
+Androsphinx,"dungeon, ruins",,Sphinx Andro,,,"Monster Manual: 281, SRD 5.1: 347"
+Angatra,,,Angatra,,,Tome of Beasts: 19
+Angler Worm,,,Angler Worm,,,Tome of Beasts: 22
+Animated Armor,"dungeon, ruins, urban",,Animated Armor,,,"Basic Rules v1: 9, Monster Manual: 19, SRD 5.1: 263"
+Ankheg,"coast, forest, grassland, underground",,Ankheg,,,"Monster Manual: 21, Princes of the Apocalypse Online Supplement v1.0: 8, SRD 5.1: 264"
+Anubian,,,Anubian,,,Tome of Beasts: 24
+Apau Perape,,,Demon Apau Perape,,,Tome of Beasts: 75
+Ape,forest,,Ape,,,"Basic Rules v1: 10, Monster Manual: 317, SRD 5.1: 366"
+Arbeyach,,unique,Devil 1Arch Arbeyach,,,Tome of Beasts: 95
+Arboreal Grappler,,,Arboreal Grappler,,,Tome of Beasts: 25
+Arcane Guardian,,,Spectral Guardian Arcane,,,Tome of Beasts: 358
+Archmage,"ruins, urban",,Archmage,"**Archmages** are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption. <br /> <br />An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers.",,"Monster Manual: 342, SRD 5.1: 395"
+Aridni,,,Aridni,,,Tome of Beasts: 26
+Asanbosam,,,Asanbosam,,,Tome of Beasts: 27
+Ash Drake,,,Drake Ash,,,Tome of Beasts: 149
+Assassin,"arctic, cave, coast, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground, urban",,Assassin,"Trained in the use of poison, **Assassins** are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them.",,"HotDQ supplement: 6, Monster Manual: 343, Princes of the Apocalypse Online Supplement v1.0: 8, SRD 5.1: 396"
+Automata Devil,,,Devil Automata,,,Tome of Beasts: 102
+Avatar Of Boreas,,unique,Boreas Avatar,,,Tome of Beasts: 42
+Awakened Shrub,"forest, grassland",,Awakened Shrub,An **awakened shrub** is an ordinary shrub given sentience and mobility by the *awaken* spell or similar magic.,,"Basic Rules v1: 10, Monster Manual: 317, SRD 5.1: 366"
+Awakened Tree,forest,,Awakened Tree,An **awakened tree** is an ordinary tree given sentience and mobility by the *awaken* spell or similar magic.,,"Basic Rules v1: 10, Monster Manual: 317, SRD 5.1: 366"
+Axe Beak,grassland,,Axe Beak,"An **axe beak** is a tall flightless bired with strong legs and a heavy, wedge-shaped beak. It has a nasty disposition and tends to attack any unfamiliar creature that wanders too close.",,"Basic Rules v1: 11, Monster Manual: 317, SRD 5.1: 366"
+Azer,"planar, underground",,Azer,,,"Monster Manual: 22, Princes of the Apocalypse Online Supplement v1.0: 9, SRD 5.1: 265"
+Azza Gremlin,,,Azza Gremlin,,,Tome of Beasts: 28
+"Baba Yaga's Horsemen, Black Night",,unique,Baba Yaga's Horsemen 3,,,Tome of Beasts: 29
+"Baba Yaga's Horsemen, Bright Day",,unique,Baba Yaga's Horsemen 1,,,Tome of Beasts: 29
+"Baba Yaga's Horsemen, Red Sun",,unique,Baba Yaga's Horsemen 2,,,Tome of Beasts: 29
+Baboon,"forest, grassland",,Baboon,,,"Basic Rules v1: 11, Monster Manual: 318, SRD 5.1: 367"
+Badger,forest,,Badger,,,"Basic Rules v1: 11, Monster Manual: 318, SRD 5.1: 367"
+Bagiennik,,,Bagiennik,,,Tome of Beasts: 31
+Balor,"dungeon, planar",,Demon Balor,,,"Monster Manual: 55, SRD 5.1: 270"
+Bandit,"arctic, coast, desert, forest, grassland, mountain, ruins, urban",,Bandit,"**Bandits** rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.<br />**Pirates** are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels.",,"Basic Rules v1: 53, HotDQ supplement: 6, Monster Manual: 343, SRD 5.1: 396"
+Bandit Captain,"arctic, coast, desert, forest, grassland, mountain, ruins, urban",,Bandit Captain,"It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The **bandit captain** has these qualities in spades. <br />In addition to managing a crew of selfish malcontents, the **pirate captain** is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis. <br />More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation.",,"Monster Manual: 344, Princes of the Apocalypse Online Supplement v1.0: 9, SRD 5.1: 397"
+Bandit Lord,,,Bandit Lord,,,Tome of Beasts: 418
+Barbed Devil,"dungeon, planar",,Devil Barbed,,,"Monster Manual: 70, SRD 5.1: 274"
+Basilisk,"arctic, cave, coast, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground",,Basilisk,,,"Basic Rules v1: 12, Monster Manual: 24, SRD 5.1: 265"
+Bastet Temple Cat,,,Bastet Temple Cat,,,Tome of Beasts: 32
+Bat,"cave, forest, mountain, underground, urban",,Bat,,,"Basic Rules v1: 12, Monster Manual: 318, Player's Handbook: 304, SRD 5.1: 367"
+Bat Swarm,"cave, dungeon, forest, ruins, swamp, underground, urban",,Bat Swarm,,,"Basic Rules v1: 45, Monster Manual: 337, SRD 5.1: 389"
+Bearded Devil,"dungeon, planar",,Devil Bearded,,,"Monster Manual: 70, SRD 5.1: 274"
+Bearfolk,,,Bearfolk,,,Tome of Beasts: 33
+Beggar Ghoul,,,Ghoul Beggar,,,Tome of Beasts: 213
+Behir,"cave, mountain, underground",,Behir,,,"Monster Manual: 25, SRD 5.1: 265"
+Behtu,,,Behtu,,,Tome of Beasts: 34
+Beli,,,Beli,,,Tome of Beasts: 35
+Bereginyas,,,Bereginyas,,,Tome of Beasts: 36
+Berserker,"arctic, cave, desert, forest, grassland, mountain, swamp, urban",,Berserker,"Hailing from uncivilized lands, unpredictable **berserkers** come together in war parties and seek conflict whereever they can find it.",,"Basic Rules v1: 53, HotDQ supplement: 6, Monster Manual: 344, SRD 5.1: 397"
+Berstuc,,,Demon Berstuc,,,Tome of Beasts: 76
+Black Bear,"cave, forest, grassland, mountain",,Bear Black,,,"Basic Rules v1: 12, Monster Manual: 318, Player's Handbook: 304, SRD 5.1: 367"
+Black Dragon Wyrmling,swamp,,Dragon Chromatic Black 4Wyrmling,,,"Monster Manual: 88, SRD 5.1: 282"
+Black Knight Commander,,,Black Knight Commander,,,Tome of Beasts: 418
+Black Pudding,dungeon,,Pudding Black,,,"Monster Manual: 241, Princes of the Apocalypse Online Supplement v1.0: 10, SRD 5.1: 337"
+Blemmyes,,,Blemmyes,,,Tome of Beasts: 37
+Blink Dog,"forest, grassland",,Blink Dog,"A **blink dog** takes its name from its ability to blink in and out of existene, a talent it uses to aid its attacks and to avoid harm. Blink dogs harbour a ling-standig hatred for displacer beasts and attack them on sight.",,"Basic Rules v1: 12, Monster Manual: 318, SRD 5.1: 368"
+Blood Hag,,,Blood Hag,,,Tome of Beasts: 242
+Blood Hawk,"coast, grassland, mountain",,Hawk Blood,,,"Basic Rules v1: 13, Monster Manual: 319, SRD 5.1: 368"
+Blue Dragon Wyrmling,desert,,Dragon Chromatic Blue 4Wyrmling,,,"Monster Manual: 91, SRD 5.1: 284"
+Boar,"forest, grassland",,Boar,,,"Basic Rules v1: 13, Monster Manual: 319, Player's Handbook: 304, SRD 5.1: 368"
+Boloti,,,Boloti,,,Tome of Beasts: 38
+Bone Collective,,,Bone Collective,,,Tome of Beasts: 39
+Bone Crab,,,Bone Crab,,,Tome of Beasts: 40
+Bone Devil,"dungeon, planar",,Devil Bone,,,"Monster Manual: 71, SRD 5.1: 275"
+Bone Swarm,,,Bone Swarm,,,Tome of Beasts: 41
+Bonepowder Ghoul,,,Ghoul Bonepowder,,,Tome of Beasts: 214
+Bouda,,,Bouda,,,Tome of Beasts: 44
+Brass Dragon Wyrmling,"cave, underground",,Dragon Metallic Brass 4Wyrmling,,,"Monster Manual: 106, SRD 5.1: 292"
+Bronze Dragon Wyrmling,coast,,Dragon Metallic Bronze 4Wyrmling,,,"Monster Manual: 109, SRD 5.1: 295"
+Broodiken,,,Broodiken,,,Tome of Beasts: 45
+Brown Bear,"cave, forest",,Bear Brown,,,"Basic Rules v1: 13, Monster Manual: 319, Player's Handbook: 304, SRD 5.1: 369"
+Bucca,,,Bucca,,,Tome of Beasts: 46
+Bugbear,"cave, dungeon, forest, mountain, ruins, urban",,Bugbear,"**Bugbears** are cruel and unruly humanoids that live to bully the weak and dislike being bossed arround. Despite their intimidating builds, bugbears move with surprising stealth and are fond of setting ambushes.",,"Basic Rules v1: 13, Monster Manual: 33, SRD 5.1: 266"
+Bukavac,,,Bukavac,,,Tome of Beasts: 47
+Bulette,"cave, desert, grassland, mountain, underground",,Bulette,,,"Monster Manual: 34, Princes of the Apocalypse Online Supplement v1.0: 10, SRD 5.1: 266"
+Buraq,,,Buraq,,,Tome of Beasts: 48
+Burrowling,,,Burrowling,,,Tome of Beasts: 49
+Cactid,,,Cactid,,,Tome of Beasts: 50
+"Camazotz, Demon Lord of Bats and Fire",,unique,Demon 1Lord Camazotz,,,Tome of Beasts: 85
+Cambium,,,Cambium,,,Tome of Beasts: 51
+Camel,desert,,Camel,,,"Basic Rules v1: 14, Monster Manual: 320, SRD 5.1: 369"
+Carrion Beetle,,,Carrion Beetle,,,Tome of Beasts: 52
+Cat,urban,,Cat,,,"Basic Rules v1: 14, Monster Manual: 320, Player's Handbook: 305, SRD 5.1: 369"
+Cave Dragon Wyrmling,,,Dragon Other Cave 4Wyrmling,,,Tome of Beasts: 127
+Cavelight Moss,,,Cavelight Moss,,,Tome of Beasts: 53
+Centaur,"coast, desert, grassland",,Centaur,,,"Basic Rules v1: 14, Monster Manual: 38, SRD 5.1: 267"
+Chain Devil,"dungeon, planar",,Devil Chain,,,"Monster Manual: 72, SRD 5.1: 275"
+Chained Angel,,,Angel Chained,,,Tome of Beasts: 20
+Chelicerae,,,Chelicerae,,,Tome of Beasts: 54
+Chernomoi,,,Chernomoi,,,Tome of Beasts: 55
+Child of the Briar,,,Child of the Briar,,,Tome of Beasts: 56
+Chimera,mountain,,Chimera,,,"Basic Rules v1: 14, Monster Manual: 39, SRD 5.1: 267"
+Chort Devil,,,Devil Chort,,,Tome of Beasts: 104
+Chronalmental,,,Chronalmental,,,Tome of Beasts: 57
+Chuul,"aquatic, coast",,Chuul,,,"Monster Manual: 40, Princes of the Apocalypse Online Supplement v1.0: 11, SRD 5.1: 267"
+Cikavak,,,Cikavak,,,Tome of Beasts: 58
+City Watch Captain,,,City Watch Captain,,,Tome of Beasts: 419
+Clay Golem,"dungeon, ruins, urban",,Golem Clay,,,"Monster Manual: 168, SRD 5.1: 315"
+Cloaker,"cave, dungeon, underground",,Cloaker,,,"Monster Manual: 41, Princes of the Apocalypse Online Supplement v1.0: 11, SRD 5.1: 268"
+Clockwork Abomination,,,Clockwork Abomination,,,Tome of Beasts: 59
+Clockwork Beetle,,,Clockwork Beetle,,,Tome of Beasts: 60
+Clockwork Beetle Swarm,,,Clockwork Beetle Swarm,,,Tome of Beasts: 61
+Clockwork Hound,,,Clockwork Hound,,,Tome of Beasts: 62
+Clockwork Huntsman,,,Clockwork Huntsman,,,Tome of Beasts: 63
+Clockwork Myrmidon,,,Clockwork Myrmidon,,,Tome of Beasts: 64
+Clockwork Watchman,,,Clockwork Watchman,,,Tome of Beasts: 65
+Clockwork Weaving Spider,,,Clockwork Weaving Spider,,,Tome of Beasts: 66
+Cloud Giant,"mountain, planar",,Giant Cloud,,,"Monster Manual: 154, Princes of the Apocalypse Online Supplement v1.0: 12, SRD 5.1: 312"
+Clurichaun,,,Clurichaun,,,Tome of Beasts: 67
+Cobbleswarm,,,Cobbleswarm,,,Tome of Beasts: 68
+Cockatrice,"forest, grassland, swamp",,Cockatrice,,,"Basic Rules v1: 15, Monster Manual: 42, SRD 5.1: 268"
+Commoner,urban,,Commoner,"**Commoners** include peasants and serfs, slaves and servants, pilgrims, merchants, artisans, and hermits.",,"Basic Rules v1: 54, HotDQ supplement: 7, Monster Manual: 345, SRD 5.1: 398"
+Constrictor Snake,"forest, swamp",,Snake Constrictor,,,"Basic Rules v1: 15, Monster Manual: 320, Player's Handbook: 305, SRD 5.1: 369"
+Copper Dragon Wyrmling,"cave, desert, grassland",,Dragon Metallic Copper 4Wyrmling,,,"Monster Manual: 111, SRD 5.1: 298"
+Coral Drake,,,Drake Coral,,,Tome of Beasts: 150
+Corpse Mound,,,Corpse Mound,,,Tome of Beasts: 69
+Corrupted Ogre Chieftain,,,Ogre Chieftain Corrupted,,,Tome of Beasts: 423
+Corrupting Ooze,,,Corrupting Ooze,,,Tome of Beasts: 311
+Couatl,planar,,Couatl,,,"Monster Manual: 43, SRD 5.1: 269"
+Crab,"aquatic, coast",,Crab,,,"Basic Rules v1: 15, Monster Manual: 320, SRD 5.1: 370"
+Crimson Drake,,,Drake Crimson,,,Tome of Beasts: 151
+Crocodile,"aquatic, coast, swamp",,Crocodile,,,"Basic Rules v1: 15, HotDQ supplement: 7, Monster Manual: 320, Player's Handbook: 305, SRD 5.1: 370"
+Crystalline Devil,,,Devil Crystalline,,,Tome of Beasts: 105
+Cult Fanatic,"dungeon, urban",,Cult Fanatic,"**Fanatics** are often part of a cutl's leadership, using their charisma and dogma to influence and prey on thos eof weak will. Most are interested in personal power above all else.",,"Monster Manual: 345, Princes of the Apocalypse Online Supplement v1.0: 12, SRD 5.1: 398"
+Cultist,"dungeon, urban",,Cultist,"**Cultists** swear allegiance to dark powers. They conceal their activities to avoid being ostracized, imprisoned, or executed for their beliefs.",,"Basic Rules v1: 54, HotDQ supplement: 7, Monster Manual: 345, SRD 5.1: 398"
+Darakhul,,,Ghoul Darakhul,,,Tome of Beasts: 216
+Darkmantle,"cave, underground",,Darkmantle,,,"Monster Manual: 46, Princes of the Apocalypse Online Supplement v1.0: 13, SRD 5.1: 269"
+Dau,,,Dau,,,Tome of Beasts: 70
+Death Butterfly Swarm,,,Death Butterfly Swarm,,,Tome of Beasts: 71
+Death Dog,"desert, grassland, underground",,Death Dog,"A **death dog** is an ugly two-headed hound that roams plains, deserts, and the Underdark. Hate burns in a death dog's heart, and a taste for humanoid flesh drives it to attack travelers and explorers. Death dog saliva carries a foul disease that causes a victim's flesh to slowly rot off the bone.",,"Basic Rules v1: 16, Monster Manual: 321, SRD 5.1: 370"
+Deathcap Myconid,,,Myconid Deathcap,,,Tome of Beasts: 300
+Deathwisp,,,Deathwisp,,,Tome of Beasts: 72
+Deep Drake,,,Drake Deep,,,Tome of Beasts: 152
+Deep Gnome (Svirfneblin),"cave, dungeon, planar, underground",,Gnome Deep,,,"Monster Manual: 164, Princes of the Apocalypse Online Supplement v1.0: 13, SRD 5.1: 315"
+Deep One,,,Deep One,,,Tome of Beasts: 73
+Deep One Archimandrite,,,Deep One Archimandrite,,,Tome of Beasts: 74
+Deep One Hybrid Priest,,,Deep One Hybrid Priest,,,Tome of Beasts: 73
+Deer,"forest, grassland",,Deer,,,"Basic Rules v1: 16, HotDQ supplement: 7, Monster Manual: 321, SRD 5.1: 370"
+Degenerate Titan,,,Titan Degenerate,,,Tome of Beasts: 381
+Derro Fetal Savant,,,Derro Fetal Savant,,,Tome of Beasts: 92
+Derro Shadow Antipaladin,,,Derro Shadow Antipaladin,,,Tome of Beasts: 93
+Desert Giant,,,Giant Desert,,,Tome of Beasts: 222
+Deva,planar,,Angel Deva,,,"Monster Manual: 16, SRD 5.1: 261"
+Devilbound Gnomish Prince,,,Gnome Prince Devilbound,,,Tome of Beasts: 420
+Dipsa,,,Dipsa,,,Tome of Beasts: 118
+Dire Wolf,"arctic, cave, forest, grassland",,Wolf Dire,,,"Basic Rules v1: 16, Monster Manual: 321, Player's Handbook: 305, SRD 5.1: 371"
+Dissimortuum,,,Dissimortuum,,,Tome of Beasts: 119
+Djinni,"arctic, coast, dungeon, grassland, planar",,Genie Djinni,,,"Monster Manual: 144, Princes of the Apocalypse Online Supplement v1.0: 14, SRD 5.1: 310"
+Dogmole,,,Dogmole,,,Tome of Beasts: 120
+Dogmole Juggernaut,,,Dogmole Juggernaut,,,Tome of Beasts: 121
+Domovoi,,,Domovoi,,,Tome of Beasts: 122
+Doppelganger,"dungeon, ruins, urban",,Doppelganger,"**Doppelgangers** take on the appearence of other humanoids, throwing off pursuit or luring victims to their doom with misdirection and disguise.",,"Basic Rules v1: 17, HotDQ supplement: 8, Monster Manual: 82, SRD 5.1: 279"
+Doppelrat,,,Doppelrat,,,Tome of Beasts: 123
+Dorreq,,,Dorreq,,,Tome of Beasts: 124
+Draft Horse,urban,,Horse Draft,,,"Basic Rules v1: 17, Monster Manual: 321, SRD 5.1: 371"
+Dragon Eel,,,Eel Dragon,,,Tome of Beasts: 146
+Dragon Turtle,aquatic,,Turtle Dragon,,,"Monster Manual: 119, Princes of the Apocalypse Online Supplement v1.0: 14, SRD 5.1: 303"
+Dragonleaf Tree,,,Dragonleaf Tree,,,Tome of Beasts: 147
+Drakon,,,Drakon,,,Tome of Beasts: 157
+Dream Eater,,,Dream Eater,,,Tome of Beasts: 158
+Dretch,"dungeon, planar",,Demon Dretch,,,"Monster Manual: 57, SRD 5.1: 270"
+Drider,"dungeon, underground",,Drider,,,"Monster Manual: 120, SRD 5.1: 304"
+Drow,"dungeon, underground, urban",,Elf Drow,,,"Monster Manual: 128, SRD 5.1: 307"
+Drowned Maiden,,,Drowned Maiden,,,Tome of Beasts: 159
+Druid,"arctic, cave, coast, desert, forest, grassland, mountain, swamp, underground",,Druid,"**Druids** dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are **tribal shamans** who heal the sick, pray to animal spirits, and provide spiritual guidance.",,"Monster Manual: 346, Princes of the Apocalypse Online Supplement v1.0: 15, SRD 5.1: 398"
+Dryad,forest,,Dryad,,,"Monster Manual: 121, SRD 5.1: 304"
+Duergar,"dungeon, underground",,Duergar,,,"Monster Manual: 122, Princes of the Apocalypse Online Supplement v1.0: 16, SRD 5.1: 305"
+Dullahan,,,Dullahan,,,Tome of Beasts: 161
+Dune Mimic,,,Mimic Dune,,,Tome of Beasts: 162
+Duskthorn Dryad,,,Dryad Duskthorn,,,Tome of Beasts: 160
+Dust Goblin,,,Goblin Dust,,,Tome of Beasts: 232
+Dust Mephit,"dungeon, planar, ruins, urban",,Mephit Dust,,,"Monster Manual: 215, Princes of the Apocalypse Online Supplement v1.0: 16, SRD 5.1: 330"
+Dwarven Ringmage,,,Dwarven Ringmage,,,Tome of Beasts: 420
+Eagle,"arctic, grassland, mountain",,Eagle,,,"Basic Rules v1: 17, Monster Manual: 322, SRD 5.1: 371"
+Eala,,,Eala,,,Tome of Beasts: 163
+Earth Elemental,"arctic, cave, coast, desert, dungeon, forest, grassland, mountain, planar, ruins, swamp, underground",,Elemental Earth,,,"Basic Rules v1: 17, Monster Manual: 124, SRD 5.1: 306"
+Eater of Dust (Yakat-Shi),,,Eater of Dust (Yakat-Shi),,,Tome of Beasts: 164
+Edimmu,,,Edimmu,,,Tome of Beasts: 165
+Eel Hound,,,Eel Hound,,,Tome of Beasts: 166
+Efreeti,"desert, dungeon, mountain, planar",,Genie Efreeti,,,"Monster Manual: 145, Princes of the Apocalypse Online Supplement v1.0: 16, SRD 5.1: 310"
+Einherjar,,,Einherjar,,,Tome of Beasts: 167
+Elder Shadow Drake,,,Drake Shadow Elder,,,Tome of Beasts: 153
+Eleinomae,,,Eleinomae,,,Tome of Beasts: 168
+Elemental Locus,,,Elemental Locus,,,Tome of Beasts: 169
+Elephant,grassland,,Elephant,,,"Basic Rules v1: 18, Monster Manual: 322, SRD 5.1: 371"
+Elk,"forest, grassland",,Elk,,,"Basic Rules v1: 18, HotDQ supplement: 8, Monster Manual: 322, SRD 5.1: 372"
+Elvish Veteran Archer,,,Elvish Veteran Archer,,,Tome of Beasts: 422
+Emerald Eye,,,Emerald Eye,,,Tome of Beasts: 175
+Emerald Order Cult Leader,,,Emerald Order Cult Leader,,,Tome of Beasts: 421
+Emperor of the Ghouls,,unique,Ghoul 1Emperor ,,,Tome of Beasts: 218
+Empty Cloak,,,Empty Cloak,,,Tome of Beasts: 176
+Eonic Drifter,,,Eonic Drifter,,,Tome of Beasts: 177
+Erina Defender,,,Erina Defender,,,Tome of Beasts: 178
+Erina Scrounger,,,Erina Scrounger,,,Tome of Beasts: 178
+Erinyes,"dungeon, planar",,Devil Erinyes,,,"Monster Manual: 73, SRD 5.1: 276"
+Ettercap,"cave, dungeon, forest, ruins, swamp, underground",,Ettercap,,,"HotDQ supplement: 9, Monster Manual: 131, SRD 5.1: 308"
+Ettin,"cave, grassland, mountain, swamp",,Ettin,,,"Monster Manual: 132, Princes of the Apocalypse Online Supplement v1.0: 17, SRD 5.1: 308"
+Eye Golem,,,Golem Eye,,,Tome of Beasts: 233
+Far Darrig,,,Far Darrig,,,Tome of Beasts: 179
+Fate Eater,,,Fate Eater,,,Tome of Beasts: 180
+Fear Smith,,,Fear Smith,,,Tome of Beasts: 181
+Fellforged,,,Fellforged,,,Tome of Beasts: 182
+Fext,,,Fext,,,Tome of Beasts: 183
+Feyward Tree,,,Feyward Tree,,,Tome of Beasts: 200
+Fidele,,,Fidele,,,Tome of Beasts: 21
+Fire Dancer Swarm,,,Fire Dancer Swarm,,,Tome of Beasts: 373
+Fire Elemental,"cave, coast, desert, dungeon, grassland, mountain, planar, ruins, underground",,Elemental Fire,,,"Basic Rules v1: 18, Monster Manual: 125, SRD 5.1: 306"
+Fire Giant,"mountain, planar",,Giant Fire,,,"Basic Rules v1: 19, Monster Manual: 154, SRD 5.1: 312"
+Firebird,,,Firebird,,,Tome of Beasts: 201
+Firegeist,,,Firegeist,,,Tome of Beasts: 202
+Flab Giant,,,Giant Flab,,,Tome of Beasts: 223
+Flame Dragon Wyrmling,,,Dragon Other Flame 4Wyrmling,,,Tome of Beasts: 131
+Flesh Golem,"dungeon, ruins",,Golem Flesh,,,"Basic Rules v1: 20, Monster Manual: 169, SRD 5.1: 316"
+Flutterflesh,,,Flutterflesh,,,Tome of Beasts: 203
+Flying Snake,"forest, swamp",,Snake Flying,"A **flying snake** is a brightly colored, winged serpent found in remote jungles. Tribespeople and cultists sometimes domesticate flying snakes to server as messengers that deliver scrolls wrapped in their coils.",,"Basic Rules v1: 20, Monster Manual: 322, SRD 5.1: 372"
+Flying Sword,"dungeon, ruins, urban",,Animated Flying Sword,,,"Basic Rules v1: 20, Monster Manual: 20, SRD 5.1: 264"
+Folk of Leng,,,Folk of Leng,,,Tome of Beasts: 204
+Forest Marauder,,,Forest Marauder,,,Tome of Beasts: 205
+Fraughashar,,,Fraughashar,,,Tome of Beasts: 206
+Frog,"aquatic, coast, forest, swamp",,Frog,,,"Basic Rules v1: 21, Monster Manual: 322, Player's Handbook: 305, SRD 5.1: 372"
+Frost Giant,"arctic, mountain, planar",,Giant Frost,,,"Basic Rules v1: 21, Monster Manual: 155, SRD 5.1: 313"
+Frostveil,,,Frostveil,,,Tome of Beasts: 207
+Gargoyle,"dungeon, urban",,Gargoyle,,,"Basic Rules v1: 21, HotDQ supplement: 9, Monster Manual: 140, SRD 5.1: 309"
+Garroter Crab,,,Garroter Crab,,,Tome of Beasts: 208
+Gbahali,,,Gbahali,,,Tome of Beasts: 209
+Gearforged Templar,,,Gearforged Templar,,,Tome of Beasts: 210
+Gelatinous Cube,dungeon,,Gelatinous Cube,,,"Monster Manual: 242, SRD 5.1: 337"
+Gerridae,,,Gerridae,,,Tome of Beasts: 212
+Ghast,"arctic, cave, coast, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground, urban",,Ghoul Ghast,,,"Monster Manual: 148, Princes of the Apocalypse Online Supplement v1.0: 18, SRD 5.1: 311"
+Ghost,"cave, dungeon, ruins, swamp, underground, urban",,Ghost,,,"Basic Rules v1: 22, Monster Manual: 147, SRD 5.1: 311"
+Ghost Knight,,,Ghost Knight,,,Tome of Beasts: 423
+Ghostwalk Spider,,,Spider Ghostwalk,,,Tome of Beasts: 361
+Ghoul,"arctic, cave, coast, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground, urban",,Ghoul,"**Ghouls** roam the night in packs, driven by an insatiable hunger for humanoid flesh. Like the maggots or carrion beetles, they thrive in places rank with decay and death.",,"Basic Rules v1: 22, Monster Manual: 148, SRD 5.1: 312"
+Giant Ant,,,Ant Giant,,,Tome of Beasts: 23
+Giant Ant Queen,,,Giant Ant Queen,,,Tome of Beasts: 23
+Giant Ape,forest,,Ape Giant,,,"Basic Rules v1: 22, Monster Manual: 323, SRD 5.1: 373"
+Giant Badger,"forest, grassland",,Badger Giant,,,"Basic Rules v1: 23, Monster Manual: 323, SRD 5.1: 373"
+Giant Bat,"cave, dungeon, forest, ruins, swamp, underground",,Bat Giant,,,"Basic Rules v1: 23, Monster Manual: 323, SRD 5.1: 373"
+Giant Boar,"forest, grassland",,Boar Giant,,,"Basic Rules v1: 23, Monster Manual: 323, SRD 5.1: 373"
+Giant Centipede,"cave, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground",,Centipede Giant,,,"Basic Rules v1: 23, HotDQ supplement: 9, Monster Manual: 323, SRD 5.1: 374"
+Giant Constrictor Snake,"forest, grassland, swamp",,Snake Constrictor Giant,,,"Basic Rules v1: 24, Monster Manual: 324, SRD 5.1: 374"
+Giant Crab,"aquatic, coast",,Crab Giant,,,"Basic Rules v1: 24, Monster Manual: 324, SRD 5.1: 374"
+Giant Crocodile,"aquatic, coast, swamp",,Crocodile Giant,,,"Basic Rules v1: 24, Monster Manual: 324, SRD 5.1: 374"
+Giant Eagle,"grassland, mountain",,Eagle Giant,,,"Basic Rules v1: 24, Monster Manual: 324, Player's Handbook: 306, SRD 5.1: 375"
+Giant Elk,"forest, grassland",,Elk Giant,"The majestic **giant elk** is rare  to the point that its appearance is often taken as a foreshadowing of an important event, such as the birth of a king. Legends tell of gods that take the form of giant elk when visiting the Material Plane. Many cultures therefore believe that to hunt these creatures is to invite divine wrath.",,"Basic Rules v1: 25, Monster Manual: 325, SRD 5.1: 375"
+Giant Fire Beetle,"cave, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground",,Beetle Fire Giant,"A **giant fire beetle** is a nocturnal creature that takes its name from a pair of glowing glands that give off light. Miners and adventurers prize these creatures, for a giant fire beetle's glands continue to shed light for 1d6 days after the beetle dies. Giant fire beetles are most commonly found underground and in dark forests.",,"Basic Rules v1: 25, Monster Manual: 325, SRD 5.1: 375"
+Giant Frog,"aquatic, coast, forest, swamp",,Frog Giant,,,"Basic Rules v1: 25, HotDQ supplement: 10, Monster Manual: 325, SRD 5.1: 376"
+Giant Goat,"forest, grassland, mountain",,Goat Giant,,,"Basic Rules v1: 25, Monster Manual: 326, SRD 5.1: 376"
+Giant Hyena,"coast, desert, forest, grassland",,Hyena Giant,,,"Basic Rules v1: 26, Monster Manual: 326, SRD 5.1: 376"
+Giant Lizard,"cave, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground",,Lizard Giant,,,"Basic Rules v1: 26, HotDQ supplement: 10, Monster Manual: 326, SRD 5.1: 377"
+Giant Octopus,aquatic,,Octopus Giant,,,"Basic Rules v1: 26, Monster Manual: 326, SRD 5.1: 377"
+Giant Owl,"forest, grassland, urban",,Owl Giant,,,"Basic Rules v1: 26, Monster Manual: 327, SRD 5.1: 377"
+Giant Poisonous Snake,"forest, grassland, swamp",,Snake Poisonous Giant,,,"Basic Rules v1: 27, Monster Manual: 327, SRD 5.1: 378"
+Giant Rat,"cave, dungeon, forest, grassland, mountain, ruins, swamp, underground, urban",,Rat Giant,,,"Basic Rules v1: 27, Monster Manual: 327, SRD 5.1: 378"
+Giant Scorpion,"cave, coast, desert, dungeon, grassland, ruins, swamp, underground",,Scorpion Giant,,,"Basic Rules v1: 27, Monster Manual: 327, SRD 5.1: 378"
+Giant Sea Horse,aquatic,,Seahorse Giant,"Like their smaler kin, **giant sea horses** are shy, colorful fish with elongated bodies and curled tails. Aquatic elves train them as mounts.",,"Basic Rules v1: 27, Monster Manual: 328, SRD 5.1: 378"
+Giant Shark,aquatic,,Shark Giant,"A **giant shark** is 30 feet long and normally foiund in deep oceans. Utterly fearless, it preys on anything that crosses its path, includig whales and ships.",,"Basic Rules v1: 28, Monster Manual: 328, SRD 5.1: 379"
+Giant Spider,"cave, coast, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground, urban",,Spider Giant,"To snare its prey, a **giant spider** spins elaborate webs or shoots sticky strands of webbing from its abdomen. Giant spiders are most commonly found underground, making their lairs on ceilings or in dark, web-filled crevices. Such lairs are often festooned with web cocoons holding past victims.",,"Basic Rules v1: 28, HotDQ supplement: 10, Monster Manual: 328, Player's Handbook: 306, SRD 5.1: 379"
+Giant Toad,"aquatic, coast, forest, swamp",,Toad Giant,,,"Basic Rules v1: 28, Monster Manual: 329, SRD 5.1: 380"
+Giant Vulture,"desert, grassland, ruins",,Vulture Giant,"A **giant vulture** has advanced intelligence and a malevolent bent. unlike its smaller kin, it will attack a wounded creature to hasten its end. Giant vultures have been known to haunt a thirsty, starving creature for days to enjoy its suffering.",,"Basic Rules v1: 29, Monster Manual: 329, SRD 5.1: 380"
+Giant Wasp,forest,,Wasp Giant,,,"Basic Rules v1: 29, Monster Manual: 329, SRD 5.1: 380"
+Giant Weasel,"forest, grassland",,Weasel Giant,,,"Basic Rules v1: 29, Monster Manual: 329, SRD 5.1: 381"
+Giant Wolf Spider,"cave, coast, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground, urban",,Spider Wolf Giant,"Smaller than a giant spider, a **giant wolf spider** hunts prey across open ground or hides in a burrow or crevice, or in a hidden cavity beneath debris.",,"Basic Rules v1: 29, Monster Manual: 330, SRD 5.1: 381"
+Gibbering Mouther,"cave, dungeon, planar, underground",,Gibbering Mouther,,,"Monster Manual: 157, SRD 5.1: 314"
+Gilded Devil,,,Devil Gilded,,,Tome of Beasts: 106
+Glabrezu,"dungeon, planar",,Demon Glabrezu,,,"Monster Manual: 58, SRD 5.1: 271"
+Gladiator,urban,,Gladiator,"**Gladiators** battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death.",,"Monster Manual: 346, SRD 5.1: 399"
+Glass Gator,,,Glass Gator,,,Tome of Beasts: 228
+Gnarljak,,,Gnarljak,,,Tome of Beasts: 229
+Gnoll,"arctic, cave, coast, desert, dungeon, forest, grassland, mountain, ruins, swamp, urban",,Gnoll,,,"Basic Rules v1: 30, Monster Manual: 163, SRD 5.1: 314"
+Gnoll Havoc Runner,,,Gnoll Havoc Runner,,,Tome of Beasts: 230
+Goat,"grassland, urban",,Goat,,,"Basic Rules v1: 30, Monster Manual: 330, SRD 5.1: 381"
+Goat-Man,,,Goat-Man,,,Tome of Beasts: 231
+Goblin,"cave, dungeon, forest, grassland, mountain, ruins, urban",,Goblin,"**Goblins** are black-hearted, gather in overwhelming numbers, and crave power, which they abuse.",,"Basic Rules v1: 30, Monster Manual: 166, SRD 5.1: 315"
+Gold Dragon Wyrmling,"mountain, ruins",,Dragon Metallic Gold 4Wyrmling,,,"Monster Manual: 115, SRD 5.1: 300"
+Gorgon,"mountain, ruins",,Gorgon,,,"Monster Manual: 171, SRD 5.1: 317"
+Gray Ooze,dungeon,,Ooze Gray,,,"HotDQ supplement: 11, Monster Manual: 243, SRD 5.1: 338"
+Gray Thirster,,,Gray Thirster,,,Tome of Beasts: 238
+Greater Death Butterfly Swarm,,,Greater Death Butterfly Swarm,,,Tome of Beasts: 71
+Green Dragon Wyrmling,forest,,Dragon Chromatic Green 4Wyrmling,,,"Monster Manual: 95, SRD 5.1: 286"
+Green Hag,"forest, swamp",,Hag Green,,,"Monster Manual: 177, SRD 5.1: 319"
+Grick,"cave, dungeon, underground",,Grick,"The wormlike **grick** blends in with the stonework of its lair. Only when prey comes near does it rear up, its four tentacles unfurling to reveal a hungry, snapping beak.",,"Basic Rules v1: 30, Monster Manual: 173, SRD 5.1: 318"
+Griffon,"arctic, coast, grassland, mountain",,Griffon,,,"Basic Rules v1: 31, HotDQ supplement: 11, Monster Manual: 174, SRD 5.1: 318"
+Grim Jester,,,Grim Jester,,,Tome of Beasts: 240
+Grimlock,"cave, dungeon, underground",,Grimlock,,,"Monster Manual: 175, SRD 5.1: 318"
+Guard,urban,,Guard,"**Guards** include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles.",,"Basic Rules v1: 54, HotDQ supplement: 11, Monster Manual: 347, SRD 5.1: 399"
+Guardian Naga,"cave, coast, forest, ruins",,Naga Guardian,,,"Monster Manual: 234, SRD 5.1: 335"
+Gug,,,Gug,,,Tome of Beasts: 241
+Gynosphinx,"dungeon, ruins",,Sphinx Gyno,,,"Monster Manual: 282, SRD 5.1: 348"
+Gypsosphinx,,,Sphinx Gypso,,,Tome of Beasts: 359
+Half-Red Dragon Veteran,"arctic, coast, desert, grassland, mountain, urban",,Half-Red Dragon Veteran,,,"Monster Manual: 180, SRD 5.1: 321"
+Harpy,"coast, forest, mountain",,Harpy,,,"Basic Rules v1: 31, Monster Manual: 181, SRD 5.1: 321"
+Haugbui,,,Haugbui,,,Tome of Beasts: 247
+Hawk,"grassland, mountain",,Hawk,,,"Basic Rules v1: 31, Monster Manual: 330, Player's Handbook: 306, SRD 5.1: 382"
+Hell Hound,"dungeon, planar, urban",,Hell Hound,,,"Basic Rules v1: 32, Monster Manual: 182, SRD 5.1: 321"
+Herald of Blood,,,Herald of Blood,,,Tome of Beasts: 248
+Herald of Darkness,,,Herald of Darkness,,,Tome of Beasts: 249
+Hezrou,"dungeon, planar",,Demon Hezrou,,,"Monster Manual: 60, Princes of the Apocalypse Online Supplement v1.0: 19, SRD 5.1: 271"
+Hill Giant,"arctic, coast, grassland",,Giant Hill,,,"Basic Rules v1: 32, Monster Manual: 155, SRD 5.1: 313"
+Hippogriff,mountain,,Hippogriff,,,"Basic Rules v1: 32, Monster Manual: 184, SRD 5.1: 322"
+Hoard Golem,,,Golem Hoard,,,Tome of Beasts: 234
+Homunculus,"dungeon, urban",,Homunculus,,,"Monster Manual: 188, SRD 5.1: 322"
+Horakh,,,Horakh,,,Tome of Beasts: 250
+Horned Devil,"dungeon, planar",,Devil Horned,,,"Monster Manual: 74, SRD 5.1: 276"
+Hound of the Night,,,Hound of the Night,,,Tome of Beasts: 251
+Hraesvelgr the Corpse Swallower,,unique,Giant Hraesvelgr,,,Tome of Beasts: 224
+Hulking Whelp,,,Hulking Whelp,,,Tome of Beasts: 252
+Hundun,,,Hundun,,,Tome of Beasts: 253
+Hunter Shark,aquatic,,Shark Hunter,"Smaller than a giant shark, but larger and fiercer than a reef shark a **hunter shark** haunts deep waters. It usually hunts alone, but multiple hunter sharks might feed in the same area. A fully grown hunter shark is 15 to 20 feet long.",,"Basic Rules v1: 33, Monster Manual: 330, SRD 5.1: 382"
+Hydra,"aquatic, cave, coast, dungeon, forest, mountain, ruins, swamp, underground",,Hydra,,,"Basic Rules v1: 33, Monster Manual: 190, SRD 5.1: 323"
+Hyena,"forest, grassland",,Hyena,,,"Basic Rules v1: 33, Monster Manual: 331, SRD 5.1: 382"
+Ia'Affrat,,unique,Devil 1Arch Ia'affrat,,,Tome of Beasts: 98
+Ice Devil,"dungeon, planar",,Devil Ice,,,"Monster Manual: 75, SRD 5.1: 277"
+Ice Maiden,,,Ice Maiden,,,Tome of Beasts: 254
+Ice Mephit,"arctic, dungeon, planar, urban",,Mephit Ice,,,"Monster Manual: 215, Princes of the Apocalypse Online Supplement v1.0: 20, SRD 5.1: 331"
+Idolic Deity,,,Idolic Deity,,,Tome of Beasts: 255
+Imp,"dungeon, planar",,Devil Imp,,,"Monster Manual: 76, Player's Handbook: 306, SRD 5.1: 277"
+Imperial Ghoul,,,Ghoul Imperial,,,Tome of Beasts: 220
+Imy-ut Ushabti,,,Imy-ut Ushabti,,,Tome of Beasts: 256
+Ink Devil,,,Devil Ink,,,Tome of Beasts: 107
+Insect Swarm,"cave, dungeon, forest, grassland, mountain, ruins, swamp, underground, urban",,Insect Swarm,,,"Basic Rules v1: 45, HotDQ supplement: 18, Monster Manual: 338, SRD 5.1: 389"
+Invisible Stalker,"arctic, cave, coast, desert, dungeon, forest, grassland, mountain, planar, ruins, swamp, underground, urban",,Invisible Stalker,,,"Monster Manual: 192, Princes of the Apocalypse Online Supplement v1.0: 21, SRD 5.1: 323"
+Iron Ghoul,,,Ghoul Iron,,,Tome of Beasts: 221
+Iron Golem,"dungeon, ruins, urban",,Golem Iron,,,"Monster Manual: 170, SRD 5.1: 317"
+Isonade,,,Isonade,,,Tome of Beasts: 257
+J'ba Fofi Spider,,,Spider J'ba Fofi,,,Tome of Beasts: 362
+Jackal,"desert, grassland",,Jackal,,,"Basic Rules v1: 33, Monster Manual: 331, SRD 5.1: 382"
+Jaculus,,,Jaculus,,,Tome of Beasts: 258
+Jotun Giant,,,Giant Jotun,,,Tome of Beasts: 226
+Kalke,,,Kalke,,,Tome of Beasts: 259
+Kikimora,,,Kikimora,,,Tome of Beasts: 260
+Killer Whale,aquatic,,Whale Killer,,,"Basic Rules v1: 34, Monster Manual: 331, SRD 5.1: 383"
+Kishi,,,Demon Kishi,,,Tome of Beasts: 77
+Knight,urban,,Knight,"**Knights** are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners.",,"Basic Rules v1: 54, HotDQ supplement: 12, Monster Manual: 347, SRD 5.1: 400"
+Kobold,"cave, dungeon, mountain, underground",,Kobold,,,"Basic Rules v1: 34, HotDQ supplement: 13, Monster Manual: 195, SRD 5.1: 324"
+Kobold Alchemist,,,Kobold Alchemist,,,Tome of Beasts: 261
+Kobold Chieftain,,,Kobold Chieftain,,,Tome of Beasts: 263
+Kobold Trapsmith,,,Kobold Trapsmith,,,Tome of Beasts: 264
+Kongamato,,,Kongamato,,,Tome of Beasts: 265
+Koralk (Harvester Devil),,,Devil Koralk,,,Tome of Beasts: 108
+Koschei,,unique,Koschei,,,Tome of Beasts: 266
+Kot Bayun,,,Kot Bayun,,,Tome of Beasts: 268
+Krake Spawn,,,Krake Spawn,,,Tome of Beasts: 269
+Kraken,"aquatic, coast",,Kraken,,,"Monster Manual: 197, SRD 5.1: 324"
+Lake Troll,,,Troll Lake,,,Tome of Beasts: 389
+Lamia,"desert, ruins",,Lamia,,,"Monster Manual: 201, SRD 5.1: 325"
+Lantern Dragonette,,,Lantern Dragonette,,,Tome of Beasts: 270
+Lemure,"dungeon, planar",,Devil Lemure,,,"Monster Manual: 76, SRD 5.1: 278"
+Lemurfolk,,,Lemurfolk,,,Tome of Beasts: 271
+Lemurfolk Greyfur,,,Lemurfolk Greyfur,,,Tome of Beasts: 271
+Leshy,,,Leshy,,,Tome of Beasts: 272
+Library Automaton,,,Library Automaton,,,Tome of Beasts: 273
+Lich,"dungeon, ruins, urban",,Lich,,,"Monster Manual: 202, Princes of the Apocalypse Online Supplement v1.0: 23, SRD 5.1: 325"
+Lich Hound,,,Lich Hound,,,Tome of Beasts: 274
+Likho,,,Likho,,,Tome of Beasts: 275
+Lindwurm,,,Lindwurm,,,Tome of Beasts: 276
+Lion,grassland,,Lion,,,"Basic Rules v1: 34, Monster Manual: 331, Player's Handbook: 307, SRD 5.1: 383"
+Liosalfar,,,Liosalfar,,,Tome of Beasts: 277
+Living Wick,,,Living Wick,,,Tome of Beasts: 278
+Lizard,"cave, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground",,Lizard,,,"Basic Rules v1: 34, Monster Manual: 332, SRD 5.1: 383"
+Lizardfolk,"coast, dungeon, forest, grassland, swamp",,Lizardfolk,,,"Basic Rules v1: 35, HotDQ supplement: 13, Monster Manual: 204, SRD 5.1: 326"
+Lord of the Hunt,,unique,Fey 1Lord Lord of the Hunt,,,Tome of Beasts: 188
+Lorelei,,,Lorelei,,,Tome of Beasts: 279
+Loxoda,,,Loxoda,,,Tome of Beasts: 280
+"Ludomir, the Moonlit King",,unique,Fey 1Lord Moonlit King,,,Tome of Beasts: 190
+Lunar Devil,,,Devil Lunar,,,Tome of Beasts: 110
+Mage,urban,,Mage,"**Mages** spend their lives in the study and practice of magic. Good aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference.",,"Basic Rules v1: 55, HotDQ supplement: 13, Monster Manual: 347, SRD 5.1: 400"
+Magma Mephit,"cave, dungeon, mountain, planar, urban",,Mephit Magma,,,"Monster Manual: 216, Princes of the Apocalypse Online Supplement v1.0: 25, SRD 5.1: 331"
+Magmin,"dungeon, planar, ruins, urban",,Magmin,,,"Monster Manual: 212, Princes of the Apocalypse Online Supplement v1.0: 25, SRD 5.1: 329"
+Mahoru,,,Mahoru,,,Tome of Beasts: 281
+Malakbel,,,Demon Malakbel,,,Tome of Beasts: 78
+Mallqui,,,Mallqui,,,Tome of Beasts: 282
+Malphas (Storm Crow),,,Malphas (Storm Crow),,,Tome of Beasts: 283
+Mammon,,unique,Devil 1Arch Mammon,,,Tome of Beasts: 99
+Mammoth,arctic,,Mammoth,"A **mammoth** is an elephantine creature with thick fur and long tusks. Stockier and fiercer than normal elephants, mammoths inhabit a wide range of climes, from subarctic to subtropical.",,"Basic Rules v1: 35, Monster Manual: 332, SRD 5.1: 384"
+Mamura,,,Mamura,,,Tome of Beasts: 284
+Manabane Scarab Swarm,,,Manabane Scarab Swarm,,,Tome of Beasts: 374
+Manticore,"arctic, cave, coast, grassland, mountain, ruins",,Manticore,,,"Basic Rules v1: 35, Monster Manual: 213, SRD 5.1: 329"
+Map Mimic,,,Mimic Map,,,Tome of Beasts: 289
+Marilith,"dungeon, planar",,Demon Marlith,,,"Monster Manual: 61, SRD 5.1: 272"
+Mask Wight,,,Mask Wight,,,Tome of Beasts: 285
+Mastiff,urban,,Mastiff,"**Mastiffs** are impressive hounds prized by humanoids for thier loyalty and keen senses. Mastiffs can be trained as guard dogs, huntng dogs, and war dogs. Halflings and other Small humanoids ride them as mounts.",,"Basic Rules v1: 35, Monster Manual: 332, Player's Handbook: 307, SRD 5.1: 384"
+Mavka,,,Mavka,,,Tome of Beasts: 286
+Mbielu,,,Dinosaur Mbielu,,,Tome of Beasts: 114
+"Mechuiti, Demon Lord of Apes",,unique,Demon 1Lord Mechuiti,,,Tome of Beasts: 88
+Medusa,"cave, dungeon, mountain, ruins, urban",,Medusa,,,"Basic Rules v1: 36, Monster Manual: 214, SRD 5.1: 330"
+Merfolk,aquatic,,Merfolk,,,"Basic Rules v1: 35, Monster Manual: 218, SRD 5.1: 332"
+Merrow,aquatic,,Merrow,,,"Monster Manual: 219, Princes of the Apocalypse Online Supplement v1.0: 25, SRD 5.1: 332"
+"Mesikammen, the Bear King",,unique,Fey 1Lord Bear King,,,Tome of Beasts: 186
+Mi-Go,,,Mi-Go,,,Tome of Beasts: 287
+Millitaur,,,Millitaur,,,Tome of Beasts: 288
+Mimic,dungeon,,Mimic,,,"Monster Manual: 220, SRD 5.1: 332"
+Mindrot Thrall,,,Mindrot Thrall,,,Tome of Beasts: 290
+Minotaur,"cave, dungeon, ruins, underground",,Minotaur,,,"Basic Rules v1: 35, Monster Manual: 223, SRD 5.1: 333"
+Minotaur Skeleton,"dungeon, underground, urban",,Skeleton Minotaur,,,"Monster Manual: 273, SRD 5.1: 346"
+Mirager,,,Mirager,,,Tome of Beasts: 291
+Miremal,,,Miremal,,,Tome of Beasts: 292
+Mirror Hag,,,Hag Mirror,,,Tome of Beasts: 243
+Mngwa,,,Mngwa,,,Tome of Beasts: 293
+Monolith Champion,,,Monolith Champion,,,Tome of Beasts: 294
+Monolith Footman,,,Monolith Footman,,,Tome of Beasts: 295
+Mordant Snare,,,Mordant Snare,,,Tome of Beasts: 296
+Morphoi,,,Morphoi,,,Tome of Beasts: 297
+"Morrinn, the Snow Queen",,unique,Fey 1Lord Snow Queen,,,Tome of Beasts: 198
+Moss Lurker,,,Moss Lurker,,,Tome of Beasts: 298
+Mule,urban,,Mule,,,"Basic Rules v1: 37, Monster Manual: 333, Player's Handbook: 307, SRD 5.1: 384"
+Mummy,"desert, dungeon",,Mummy,,,"Basic Rules v1: 37, Monster Manual: 228, SRD 5.1: 333"
+Mummy Lord,"desert, dungeon",,Mummy Lord,,,"Monster Manual: 229, SRD 5.1: 334"
+Myling,,,Myling,,,Tome of Beasts: 301
+Naina,,,Naina,,,Tome of Beasts: 302
+Nalfeshnee,"dungeon, planar",,Demon Nalfeshnee,,,"Monster Manual: 62, SRD 5.1: 272"
+Ngobou,,,Dinosaur Ngobou,,,Tome of Beasts: 115
+Nichny,,,Nichny,,,Tome of Beasts: 303
+"Nicnevin, Queen of Witches",,unique,Fey 1Lord Queen of Witches,,,Tome of Beasts: 194
+Night Hag,"planar, underground",,Hag Night,,,"Monster Manual: 178, SRD 5.1: 319"
+Night Scorpion,,,Scorpion Night,,,Tome of Beasts: 340
+Nightgarm,,,Nightgarm,,,Tome of Beasts: 305
+Nightmare,"planar, swamp",,Nightmare,,,"Monster Manual: 235, SRD 5.1: 336"
+Nihileth,,,Aboleth Nihileth,,,Tome of Beasts: 8
+Nihilethic Zombie,,,Aboleth Nihileth Zombie,,,Tome of Beasts: 9
+Nkosi,,,Nkosi,,,Tome of Beasts: 306
+Nkosi Pridelord,,,Nkosi Pridelord,,,Tome of Beasts: 306
+Noble,urban,,Noble,"**Nobles** wield great authority and influence as members of hte upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.<br />The noble's statistics can also be used to represent **courtiers** who aren't of noble birth.",,"HotDQ supplement: 13, Monster Manual: 348, Princes of the Apocalypse Online Supplement v1.0: 26, SRD 5.1: 401"
+Noctiny,,,Noctiny,,,Tome of Beasts: 308
+Ochre Jelly,dungeon,,Jelly Ochre,"**Ochre jellies** stalk and consume organic creatures, and they have enought bestial cunning to avoid large groups.",,"Basic Rules v1: 38, Monster Manual: 243, SRD 5.1: 338"
+Octopus,aquatic,,Octopus,,,"Basic Rules v1: 38, Monster Manual: 333, SRD 5.1: 483"
+Oculo Swarm,,,Oculo Swarm,,,Tome of Beasts: 309
+Ogre,"dungeon, forest, mountain, swamp",,Ogre,"**Ogres** are lazy, angry, ten-foot-tall giants that live by raiding and scavenging.",,"Basic Rules v1: 38, HotDQ supplement: 14, Monster Manual: 237, SRD 5.1: 336"
+Ogre Zombie,"dungeon, forest, mountain, swamp",,Zombie Ogre,,,"Monster Manual: 316, SRD 5.1: 357"
+Oni,"dungeon, grassland, ruins, urban",,Oni,,,"Monster Manual: 239, Princes of the Apocalypse Online Supplement v1.0: 27, SRD 5.1: 336"
+Oozasis,,,Oozasis,,,Tome of Beasts: 310
+Orc,"arctic, coast, desert, dungeon, forest, grassland, mountain, ruins, swamp, urban",,Orc,"**Orcs** are renowned for their barbarism. They have stooped postures, low foreheads, and piglike faces with prominent lower canines that resemble a boar's tusks.",,"Basic Rules v1: 39, HotDQ supplement: 14, Monster Manual: 246, SRD 5.1: 339"
+Orobas Devil,,,Devil Orobas,,,Tome of Beasts: 111
+Ostinato,,,Ostinato,,,Tome of Beasts: 312
+Otyugh,"cave, dungeon, ruins, swamp, underground",,Otyugh,,,"HotDQ supplement: 14, Monster Manual: 248, SRD 5.1: 339"
+Owl,"forest, urban",,Owl,,,"Basic Rules v1: 39, Monster Manual: 333, Player's Handbook: 308, SRD 5.1: 385"
+Owl Harpy,,,Owl Harpy,,,Tome of Beasts: 246
+Owlbear,"forest, mountain",,Owlbear,"The **owlbear**'s reputation for ferocity, stubbornness, and sheer ill temper makes it one of the most feared predators of the wild. There is little, if anything, that a hungry owlbear fears.",,"Basic Rules v1: 39, Monster Manual: 249, SRD 5.1: 339"
+Panther,forest,,Panther,,,"Basic Rules v1: 39, Monster Manual: 333, Player's Handbook: 308, SRD 5.1: 385"
+Paper Drake,,,Drake Paper,,,Tome of Beasts: 154
+Pegasus,mountain,,Pegasus,,,"Basic Rules v1: 40, Monster Manual: 250, SRD 5.1: 340"
+Phase Spider,"cave, coast, dungeon, forest, grassland, mountain, planar, ruins, swamp, underground",,Spider Phase,A **phase spider** possesses the magical ability to phase in and out of the Ethereal Plane. It seems to appear out of nowhere and quickly vanishes after attacking. Its movement on the Ethereal Plane before coming back to the Material Plane makes it seem like it can teleport.,,"Basic Rules v1: 40, Monster Manual: 334, SRD 5.1: 385"
+Pit Fiend,"dungeon, planar",,Devil Pit Fiend,,,"Monster Manual: 77, SRD 5.1: 278"
+Planetar,planar,,Angel Planetar,,,"Monster Manual: 17, SRD 5.1: 262"
+Plesiosaurus,aquatic,,Dinosaur Plesiosaurus,,,"Basic Rules v1: 40, Monster Manual: 80, SRD 5.1: 279"
+Poisonous Snake,"desert, forest, grassland, swamp",,Snake Poisonous,,,"Basic Rules v1: 40, Monster Manual: 334, Player's Handbook: 308, SRD 5.1: 386"
+Poisonous Snake Swarm,"desert, dungeon, forest, grassland, swamp",,Poisonous Snake Swarm,,,"Basic Rules v1: 46, Monster Manual: 338, SRD 5.1: 390"
+Polar Bear,"arctic, cave",,Bear Polar,,,"Basic Rules v1: 41, Monster Manual: 334, SRD 5.1: 386"
+Pombero,,,Pombero,,,Tome of Beasts: 313
+Pony,grassland,,Pony,,,"Basic Rules v1: 41, Monster Manual: 335, SRD 5.1: 386"
+Possessed Pillar,,,Possessed Pillar,,,Tome of Beasts: 314
+Priest,urban,,Priest,"**Priests** bring the teachings of their gods to the common folk. They are spiritual leaders of temples and shrines and often hold positions of influence on their communities. Evil priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good society, overseeing depraved rites. <br />A priest typically has one or more acolytes to help with religious ceremonies and other sacred duties.",,"Basic Rules v1: 55, HotDQ supplement: 15, Monster Manual: 348, SRD 5.1: 401"
+Prismatic Beetle Swarm,,,Prismatic Beetle Swarm,,,Tome of Beasts: 375
+Pseudodragon,urban,,Pseudodragon,,,"Monster Manual: 254, Player's Handbook: 308, SRD 5.1: 340"
+Psoglav,,,Demon Psoglav,,,Tome of Beasts: 79
+Purple Worm,underground,,Purple Worm,,,"Monster Manual: 255, Princes of the Apocalypse Online Supplement v1.0: 29, SRD 5.1: 340"
+Putrid Haunt,,,Putrid Haunt,,,Tome of Beasts: 315
+"Qorgeth, Demon Lord of the Devouring Worm",,unique,Demon 1Lord Qorgeth,,,Tome of Beasts: 90
+Quasit,"dungeon, planar",,Demon Quasit,,,"Monster Manual: 63, Player's Handbook: 309, SRD 5.1: 273"
+Quipper,aquatic,,Quipper,"A **quipper** is a carnivorous fish with sharp teeth. Quippers can adapt to any aquatic environment, including cold subterranean lakes. They frequently gather in swarms.",,"Basic Rules v1: 41, Monster Manual: 335, SRD 5.1: 387"
+Quipper Swarm,aquatic,,Quipper Swarm,,,"Basic Rules v1: 46, Monster Manual: 338, SRD 5.1: 390"
+Qwyllion,,,Qwyllion,,,Tome of Beasts: 316
+Rakshasa,"planar, urban",,Rakshasa,,,"Monster Manual: 257, SRD 5.1: 341"
+Ramag,,,Ramag,,,Tome of Beasts: 317
+Rat,"arctic, cave, coast, dungeon, forest, grassland, mountain, ruins, swamp, underground, urban",,Rat,,,"Basic Rules v1: 41, Monster Manual: 335, Player's Handbook: 309, SRD 5.1: 387"
+Rat King,,,Rat King,,,Tome of Beasts: 318
+Rat Swarm,"cave, dungeon, forest, grassland, ruins, swamp, urban",,Rat Swarm,,,"Basic Rules v1: 46, HotDQ supplement: 19, Monster Manual: 339, SRD 5.1: 390"
+Ratatosk,,,Ratatosk,,,Tome of Beasts: 319
+Ratfolk,,,Ratfolk,,,Tome of Beasts: 320
+Ratfolk Rogue,,,Ratfolk Rogue,,,"Tome of Beasts: 320, Tome of Beasts: 424"
+Raven,"forest, grassland",,Raven,,,"Basic Rules v1: 42, Monster Manual: 335, Player's Handbook: 309, SRD 5.1: 387"
+Raven Swarm,"forest, grassland, mountain, ruins, urban",,Raven Swarm,,,"Basic Rules v1: 46, Monster Manual: 339, SRD 5.1: 391"
+Ravenala,,,Ravenala,,,Tome of Beasts: 321
+Ravenfolk Doom Croaker,,,Ravenfolk Doom Croaker,,,Tome of Beasts: 324
+Ravenfolk Scout,,,Ravenfolk Scout,,,Tome of Beasts: 322
+Ravenfolk Warrior,,,Ravenfolk Warrior,,,Tome of Beasts: 323
+Red Dragon Wyrmling,mountain,,Dragon Chromatic Red 4Wyrmling,,,"Monster Manual: 98, SRD 5.1: 288"
+Red Hag,,,Hag Red,,,Tome of Beasts: 244
+Red-Banded Line Spider,,,Spider Red-Banded Line,,,Tome of Beasts: 363
+Reef Shark,aquatic,,Shark Reef,"Smaller than giant sharks and hunter sharks, **reef sharks** inhabit shallow waters and coral reefs, gathering in small packs to hunt. A full-grown specimen measures 6 to 10 feet long.",,"Basic Rules v1: 42, Monster Manual: 336, Player's Handbook: 309, SRD 5.1: 387"
+Remorhaz,arctic,,Remorhaz,,,"Monster Manual: 258, SRD 5.1: 341"
+Rhinoceros,grassland,,Rhinoceros,,,"Basic Rules v1: 42, Monster Manual: 336, SRD 5.1: 388"
+Riding Horse,urban,,Horse Riding,,,"Basic Rules v1: 42, Monster Manual: 336, Player's Handbook: 310, SRD 5.1: 388"
+Rift Swine,,,Rift Swine,,,Tome of Beasts: 326
+Rime Worm Grub,,,Rime Worm Grub,,,Tome of Beasts: 327
+Risen Reaver,,,Risen Reaver,,,Tome of Beasts: 328
+Roachling Lord,,,Roachling Lord,,,Tome of Beasts: 329
+Roachling Skirmisher,,,Roachling Skirmisher,,,Tome of Beasts: 329
+Roc,"coast, desert, mountain",,Roc,,,"Monster Manual: 260, SRD 5.1: 342"
+Roper,"cave, underground",,Roper,,,"HotDQ supplement: 15, Monster Manual: 261, Princes of the Apocalypse Online Supplement v1.0: 30, SRD 5.1: 342"
+Rotting Wind,,,Rotting Wind,,,Tome of Beasts: 330
+Rubezahl,,,Demon Rubezahl,,,Tome of Beasts: 80
+Rug of Smothering,"dungeon, ruins, urban",,Animated Rug Of Smothering,,,"HotDQ supplement: 16, Monster Manual: 20, SRD 5.1: 264"
+Rum Gremlin,,,Gremlin Rum,,,Tome of Beasts: 239
+Rusalka,,,Rusalka,,,Tome of Beasts: 331
+Rust Drake,,,Drake Rust,,,Tome of Beasts: 155
+Rust Monster,"dungeon, underground",,Rust Monster,,,"Monster Manual: 262, Princes of the Apocalypse Online Supplement v1.0: 30, SRD 5.1: 343"
+Saber-Toothed Tiger,"forest, grassland",,Tiger Saber-Toothed,,,"Basic Rules v1: 43, Monster Manual: 336, SRD 5.1: 388"
+Sahuagin,"aquatic, coast",,Sahuagin,,,"Monster Manual: 263, SRD 5.1: 343"
+Salamander,"forest, planar",,Salamander,,,"Monster Manual: 266, Princes of the Apocalypse Online Supplement v1.0: 30, SRD 5.1: 344"
+Salt Devil,,,Devil Salt,,,Tome of Beasts: 113
+Salt Golem,,,Golem Salt,,,Tome of Beasts: 235
+Sand Hag,,,Hag Sand,,,Tome of Beasts: 245
+Sand Silhouette,,,Sand Silhouette,,,Tome of Beasts: 332
+Sand Spider,,,Spider Sand,,,Tome of Beasts: 364
+Sandman,,,Sandman,,,Tome of Beasts: 333
+Sandwyrm,,,Sandwyrm,,,Tome of Beasts: 334
+Sap Demon,,,Demon Sap,,,Tome of Beasts: 335
+"Sarastra, Queen of Night and Magic",,unique,Fey 1Lord Queen of Night,,,Tome of Beasts: 192
+Sarcophagus Slime,,,Slime Sarcophagus,,,Tome of Beasts: 336
+Sathaq Worm,,,Worm Sathaq,,,Tome of Beasts: 337
+Satyr,"forest, grassland, urban",,Satyr,,,"Basic Rules v1: 43, Monster Manual: 267, SRD 5.1: 344"
+Savager,,,Savager,,,Tome of Beasts: 338
+Scheznyki,,,Scheznyki,,,Tome of Beasts: 339
+Scorpion,"cave, desert, grassland, mountain, swamp",,Scorpion,,,"Basic Rules v1: 43, Monster Manual: 337, SRD 5.1: 388"
+Scorpion Cultist,,,Scorpion Cultist,,,Tome of Beasts: 425
+Scout,"arctic, coast, desert, forest, grassland, mountain, swamp",,Scout,"**Scouts** are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance.",,"HotDQ supplement: 16, Monster Manual: 349, Princes of the Apocalypse Online Supplement v1.0: 31, SRD 5.1: 401"
+Sea Dragon Wyrmling,,,Dragon Other Sea 4Wyrmling,,,Tome of Beasts: 136
+Sea Hag,"aquatic, coast, underground",,Hag Sea,,,"Monster Manual: 179, Princes of the Apocalypse Online Supplement v1.0: 31, SRD 5.1: 320"
+Sea Horse,aquatic,,Sea Horse,,,"Basic Rules v1: 43, Monster Manual: 337, SRD 5.1: 389"
+Selang,,,Selang,,,Tome of Beasts: 341
+Serpopard,,,Serpopard,,,Tome of Beasts: 342
+Shabti,,,Shabti,,,Tome of Beasts: 343
+Shadhavar,,,Shadhavar,,,Tome of Beasts: 344
+Shadow,"dungeon, ruins, swamp, urban",,Shadow,,,"Monster Manual: 269, Princes of the Apocalypse Online Supplement v1.0: 31, SRD 5.1: 344"
+Shadow Beast,,,Shadow Beast,,,Tome of Beasts: 345
+Shadow Fey,,,Shadow Fey,,,Tome of Beasts: 171
+Shadow Fey Duelist,,,Shadow Fey Duelist,,,Tome of Beasts: 171
+Shadow Fey Enchantress,,,Shadow Fey Enchantress,,,Tome of Beasts: 172
+Shadow Fey Forest Hunter,,,Shadow Fey Forest Hunter,,,Tome of Beasts: 173
+Shadow Fey Guardian,,,Shadow Fey Guardian,,,Tome of Beasts: 174
+Shambling Mound,"forest, swamp",,Shambling Mound,,,"HotDQ supplement: 16, Monster Manual: 270, SRD 5.1: 345"
+Sharkjaw Skeleton,,,Skeleton Sharkjaw,,,Tome of Beasts: 350
+Shellycoat,,,Shellycoat,,,Tome of Beasts: 346
+Shield Guardian,"dungeon, ruins, urban",,Shield Guardian,,,"Monster Manual: 271, Princes of the Apocalypse Online Supplement v1.0: 32, SRD 5.1: 345"
+Shoggoth,,,Shoggoth,,,Tome of Beasts: 347
+Shrieker,"cave, dungeon, swamp",,Fungus Shreiker,,,"Monster Manual: 138, SRD 5.1: 309"
+Shroud,,,Shroud,,,Tome of Beasts: 348
+Silver Dragon Wyrmling,"arctic, mountain",,Dragon Metallic Silver 4Wyrmling,,,"Monster Manual: 118, SRD 5.1: 303"
+Skein Witch,,,Witch Skein,,,Tome of Beasts: 349
+Skeleton,"dungeon, ruins, urban",,Skeleton,"Assemblages of bones animated by dark magic, **skeletons** heed the summons of those who create them or rise of their own accord in places saturated with deathly magic.",,"Basic Rules v1: 43, Monster Manual: 272, Player's Handbook: 310, SRD 5.1: 346"
+Skin Bat,,,Bat Skin,,,Tome of Beasts: 87
+Skitterhaunt,,,Skitterhaunt,,,Tome of Beasts: 352
+Slow Storm,,,Slow Storm,,,Tome of Beasts: 353
+Sluagh Swarm,,,Sluagh Swarm,,,Tome of Beasts: 376
+Smaragdine Golem,,,Golem Smaragdine,,,Tome of Beasts: 236
+Solar,planar,,Angel Solar,,,"Monster Manual: 18, SRD 5.1: 262"
+Son of Fenris,,,Son of Fenris,,,Tome of Beasts: 355
+Soul Eater,,,Soul Eater,,,Tome of Beasts: 356
+Spark,,,Spark,,,Tome of Beasts: 357
+Spawn of Akyishigal,,,Demon 1Lord Akyishigal Spawn,,,Tome of Beasts: 83
+Spawn of Arbeyach,,,Devil 1Arch Arbeyach Spawn,,,Tome of Beasts: 97
+Specter,"dungeon, ruins, urban",,Specter,,,"HotDQ supplement: 17, Monster Manual: 279, Princes of the Apocalypse Online Supplement v1.0: 33, SRD 5.1: 346"
+Spectral Guardian,,,Spectral Guardian,,,Tome of Beasts: 358
+Spider,"cave, coast, dungeon, forest, grassland, mountain, planar, ruins, swamp, underground",,Spider,,,"Basic Rules v1: 44, Monster Manual: 337, SRD 5.1: 389"
+Spider of Leng,,,Spider of Leng,,,Tome of Beasts: 365
+Spider Thief,,,Spider Thief,,,Tome of Beasts: 366
+Spinosaurus,,,Dinosaur Spinosaurus,,,Tome of Beasts: 116
+Spire Walker,,,Spire Walker,,,Tome of Beasts: 367
+Spirit Naga,"cave, dungeon, ruins, underground",,Naga Spirit,,,"Monster Manual: 234, SRD 5.1: 335"
+Sprite,"forest, grassland, swamp",,Sprite,,,"Monster Manual: 283, Player's Handbook: 310, Princes of the Apocalypse Online Supplement v1.0: 33, SRD 5.1: 348"
+Spy,"arctic, cave, coast, desert, forest, grassland, mountain, ruins, swamp, urban",,Spy,"Rulers, nobles, merchants, guildmasters, and other wealthy individuals use **spies** to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers.",,"HotDQ supplement: 17, Monster Manual: 349, Princes of the Apocalypse Online Supplement v1.0: 33, SRD 5.1: 402"
+Star Drake,,,Drake Star,,,Tome of Beasts: 156
+Star-Spawn of Cthulhu,,,Star-Spawn of Cthulhu,,,Tome of Beasts: 368
+Steam Golem,,,Golem Steam,,,Tome of Beasts: 237
+Steam Mephit,"dungeon, planar, urban",,Mephit Steam,,,"Monster Manual: 217, Princes of the Apocalypse Online Supplement v1.0: 34, SRD 5.1: 331"
+Stirge,"forest, swamp",,Stirge,"A **stirge** is a winged pest that feeds on the blood of living creatures, drawing sustenance through its proboscis, which it uses to pierce a victim's flesh while clutching onto its prey with hooked claws.",,"Basic Rules v1: 44, HotDQ supplement: 17, Monster Manual: 284, SRD 5.1: 349"
+Stone Giant,"cave, mountain, underground",,Giant Stone,,,"HotDQ supplement: 18, Monster Manual: 156, SRD 5.1: 313"
+Stone Golem,"dungeon, ruins, urban",,Golem Stone,,,"Basic Rules v1: 45, HotDQ supplement: 18, Monster Manual: 170, SRD 5.1: 317"
+Storm Giant,"arctic, coast, desert, mountain, planar",,Giant Storm,,,"Monster Manual: 156, SRD 5.1: 313"
+Stryx,,,Stryx,,,Tome of Beasts: 369
+Stuhac,,,Stuhac,,,Tome of Beasts: 370
+Stygian Fat-Tailed Scorpion,,,Scorpion Stygian Fat-Tailed,,,Tome of Beasts: 340
+Subek,,,Subek,,,Tome of Beasts: 371
+Succubus/Incubus,"dungeon, planar, urban",,Succubus/Incubus,,,"Monster Manual: 285, SRD 5.1: 349"
+Suturefly,,,Suturefly,,,Tome of Beasts: 372
+Swamp Adder,,,Snake Swamp Adder,,,Tome of Beasts: 354
+Tarrasque,"aquatic, arctic, cave, coast, desert, dungeon, forest, grassland, mountain, planar, ruins, swamp, underground, urban",,Tarrasque,,,"Monster Manual: 286, SRD 5.1: 350"
+Temple Dog,,,Temple Dog,,,Tome of Beasts: 378
+Tendril Puppet,,,Vine Lord Tendril Puppet,,,Tome of Beasts: 403
+Theullai,,,Theullai,,,Tome of Beasts: 379
+Thug,"arctic, cave, coast, forest, grassland, urban",,Thug,**Thugs** are ruthless enforcers skilled and intimidation and violence. They work for money and have few scruples.,,"Basic Rules v1: 55, Monster Manual: 350, SRD 5.1: 402"
+Thursir Giant,,,Giant Thursir,,,Tome of Beasts: 227
+Tiger,"forest, grassland",,Tiger,,,"Basic Rules v1: 47, Monster Manual: 339, Player's Handbook: 311, SRD 5.1: 391"
+Titanoboa,,,Snake Titanoboa,,,Tome of Beasts: 382
+Tophet,,,Tophet,,,Tome of Beasts: 383
+Tosculi Drone,,,Tosculi Drone,,,Tome of Beasts: 386
+Tosculi Elite Bow Raider,,,Tosculi Elite Bow Raider,,,Tome of Beasts: 386
+Tosculi Hive-Queen,,,Tosculi Hive-Queen,,,Tome of Beasts: 385
+Tosculi Warrior,,,Tosculi Warrior,,,Tome of Beasts: 386
+"Totivillus, Scribe of Hell",,unique,Devil 1Arch Totivillus,,,Tome of Beasts: 101
+Treacle,,,Treacle,,,Tome of Beasts: 387
+Treant,"forest, swamp",,Treant,,,"Monster Manual: 289, SRD 5.1: 351"
+Tribal Warrior,"arctic, cave, desert, forest, grassland, mountain, swamp",,Tribal Warrior,"**Tribal Warriors** live beyond civilization, most often subsisting on fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest warrior of the tribe or a tribe member blessed by the gods.",,"Monster Manual: 350, Princes of the Apocalypse Online Supplement v1.0: 34, SRD 5.1: 402"
+Triceratops,"grassland, mountain",,Dinosaur Triceratops,,,"Basic Rules v1: 47, Monster Manual: 80, SRD 5.1: 279"
+Troll,"cave, dungeon, forest, mountain, swamp",,Troll,,,"Basic Rules v1: 47, HotDQ supplement: 19, Monster Manual: 291, SRD 5.1: 351"
+Trollkin Reaver,,,Trollkin Reaver,,,Tome of Beasts: 390
+Tusked Skyfish,,,Tusked Skyfish,,,Tome of Beasts: 391
+Tyrannosaurus Rex,grassland,,Dinosaur Tyrannosaurus Rex,,,"Basic Rules v1: 48, Monster Manual: 80, SRD 5.1: 279"
+"Ulorian, the River King",,unique,Fey 1Lord River King,,,Tome of Beasts: 196
+Umbral Vampire,,,Vampire Umbral,,,Tome of Beasts: 397
+Unicorn,"forest, ruins",,Unicorn,,,"Monster Manual: 294, SRD 5.1: 351"
+Uraeus,,,Uraeus,,,Tome of Beasts: 392
+Urochar (Strangling Watcher),,,Urochar (Strangling Watcher),,,Tome of Beasts: 393
+Ushabti,,,Ushabti,,,Tome of Beasts: 394
+Vaettir,,,Vaettir,,,Tome of Beasts: 395
+Valkyrie,,,Valkyrie,,,Tome of Beasts: 396
+Vampire,"dungeon, ruins, urban",,Vampire,,,"HotDQ supplement: 20, Monster Manual: 297, SRD 5.1: 352"
+Vampire Spawn,"dungeon, ruins, urban",,Vampire Spawn,,,"HotDQ supplement: 21, Monster Manual: 298, Princes of the Apocalypse Online Supplement v1.0: 35, SRD 5.1: 354"
+Vampire Warlock,,,Vampire Warlock,,,Tome of Beasts: 425
+Vapor Lynx,,,Lynx Vapor,,,Tome of Beasts: 398
+Venomous Mummy,,,Mummy Venemous,,,Tome of Beasts: 299
+Vesiculosa,,,Vesiculosa,,,Tome of Beasts: 399
+Veteran,urban,,Veteran,**Veterans** are professional fighters that take up arms for pay or toprotect something they velieve in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves.,,"HotDQ supplement: 21, Monster Manual: 350, Princes of the Apocalypse Online Supplement v1.0: 35, SRD 5.1: 403"
+Vila,,,Vila,,,Tome of Beasts: 400
+Vile Barber (Siabhra),,,Vile Barber (Siabhra),,,Tome of Beasts: 401
+Vine Lord,,,Vine Lord,,,Tome of Beasts: 402
+Vine Troll Skeleton,,,Skeleton Troll Vine,,,Tome of Beasts: 351
+Violet Fungus,"cave, dungeon, underground",,Fungus Violet,,,"HotDQ supplement: 21, Monster Manual: 138, Princes of the Apocalypse Online Supplement v1.0: 36, SRD 5.1: 309"
+Void Dragon Wyrmling,,,Dragon Other Void 4Wyrmling,,,Tome of Beasts: 140
+Voidling,,,Voidling,,,Tome of Beasts: 404
+Vrock,"dungeon, planar",,Demon Vrock,,,"Monster Manual: 64, Princes of the Apocalypse Online Supplement v1.0: 36, SRD 5.1: 273"
+Vulture,"desert, grassland, ruins",,Vulture,,,"Basic Rules v1: 48, Monster Manual: 339, SRD 5.1: 392"
+Wampus Cat,,,Cat Wampus,,,Tome of Beasts: 405
+War Ostrich,,,Nkosi Ostrich War,,,Tome of Beasts: 307
+Warhorse,"grassland, urban",,Horse War,A **warhorse** is a powerful horse that has been trained for battle. It is never skittish and does not stray from its commands. They can attack when appropriate but only if its rider allows. A warhorse will often wear special armor called barding. An armored warhorse has an AC based on the type of barding worn (see the *Player's Handbook* for more information on barding). ,,"Basic Rules v1: 48, Monster Manual: 340, Player's Handbook: 311, SRD 5.1: 392"
+Warhorse Skeleton,"grassland, ruins",,Skeleton Horse War,,,"Monster Manual: 273, SRD 5.1: 346"
+Water Elemental,"aquatic, arctic, cave, coast, dungeon, forest, grassland, mountain, planar, ruins, swamp, underground",,Elemental Water,,,"Basic Rules v1: 49, Monster Manual: 125, SRD 5.1: 307"
+Water Leaper,,,Water Leaper,,,Tome of Beasts: 406
+Weasel,grassland,,Weasel,,,"Basic Rules v1: 49, Monster Manual: 340, SRD 5.1: 392"
+Weeping Treant,,,Treant Weeping,,,Tome of Beasts: 388
+Werebear,"cave, forest, mountain, urban",,Lycan Were Bear,,,"Monster Manual: 208, SRD 5.1: 326"
+Wereboar,"forest, grassland, swamp, urban",,Lycan Were Boar,,,"Monster Manual: 209, Princes of the Apocalypse Online Supplement v1.0: 37, SRD 5.1: 327"
+Wererat,"cave, dungeon, ruins, swamp, underground, urban",,Lycan Were Rat,,,"Monster Manual: 209, SRD 5.1: 327"
+Weretiger,"forest, urban",,Lycan Were Tiger,,,"Monster Manual: 210, SRD 5.1: 328"
+Werewolf,"dungeon, forest, grassland, urban",,Lycan Were Wolf,,,"Basic Rules v1: 49, Monster Manual: 211, SRD 5.1: 328"
+Wharfling,,,Wharfling,,,Tome of Beasts: 407
+Wharfling Swarm,,,Wharfling Swarm,,,Tome of Beasts: 407
+White Ape,,,Ape White,,,Tome of Beasts: 408
+White Dragon Wyrmling,"arctic, cave, underground",,Dragon Chromatic White 4Wyrmling,,,"Monster Manual: 102, SRD 5.1: 290"
+Wight,"arctic, cave, coast, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground, urban",,Wight,,,"Basic Rules v1: 50, Monster Manual: 300, SRD 5.1: 354"
+Will-o'-Wisp,swamp,,Will-o'-Wisp,,,"HotDQ supplement: 22, Monster Manual: 301, Princes of the Apocalypse Online Supplement v1.0: 37, SRD 5.1: 355"
+Wind Dragon Wyrmling,,,Dragon Other Wind 4Wyrmling,,,Tome of Beasts: 145
+Winter Wolf,"arctic, cave, forest, grassland",,Wolf Winter,"The arctic-dwelling **winter wolf** is as large as a dire wolf but has snow-white fur and pale blue eyes. Frost giants use these evil creatures as guards and hunting companions, putting the wolves' deadly breath weapon to use against their foes. Winter wolves communicate with one another using growls and barks, but they speak Common and Giant well enough to follow simple conversation.",,"Basic Rules v1: 50, Monster Manual: 340, SRD 5.1: 392"
+Witchlight,,,Witchlight,,,Tome of Beasts: 409
+Wolf,"arctic, cave, forest, grassland",,Wolf,"**Wolves** are found in subarctic and temperate regions of the world, running in packs through hills and forests.",,"Basic Rules v1: 50, Monster Manual: 341, Player's Handbook: 311, SRD 5.1: 393"
+Wolf Reaver Dwarf,,,Wolf Reaver Dwarf,,,Tome of Beasts: 426
+Wolf Spirit Swarm,,,Wolf Spirit Swarm,,,Tome of Beasts: 377
+Worg,"arctic, cave, forest, grassland",,Worg,"A **worg** is an evil predator that delights in hunting and devouring creatures weaker than itself. Cunning and malevolent, worgs roam across the remote wilderness or are raised by goblins and hobgoblins. Those creatures use worgs as mounts, but a worg will turn on its rider if it feels mistreated or malnourished. Worgs speak in their own language and Goblin, and a few learn to speak Common as well.",,"Basic Rules v1: 51, Monster Manual: 341, SRD 5.1: 393"
+Wormhearted Suffragan,,,Wormhearted Suffragan,,,Tome of Beasts: 410
+Wraith,"dungeon, ruins, swamp, urban",,Wraith,,,"Monster Manual: 302, SRD 5.1: 355"
+Wyvern,"arctic, coast, grassland",,Wyvern,,,"Basic Rules v1: 51, HotDQ supplement: 23, Monster Manual: 303, SRD 5.1: 356"
+Xanka,,,Xanka,,,Tome of Beasts: 411
+Xhkarsh,,,Xhkarsh,,,Tome of Beasts: 412
+Xorn,"dungeon, planar, underground",,Xorn,,,"Monster Manual: 304, Princes of the Apocalypse Online Supplement v1.0: 38, SRD 5.1: 356"
+Ychen Bannog,,,Ychen Bannog,,,Tome of Beasts: 413
+Young Black Dragon,swamp,,Dragon Chromatic Black 3Young,,,"Monster Manual: 88, SRD 5.1: 281"
+Young Blue Dragon,desert,,Dragon Chromatic Blue 3Young,,,"Monster Manual: 91, SRD 5.1: 283"
+Young Brass Dragon,"cave, underground",,Dragon Metallic Brass 3Young,,,"Monster Manual: 105, SRD 5.1: 292"
+Young Bronze Dragon,coast,,Dragon Metallic Bronze 3Young,,,"Monster Manual: 108, SRD 5.1: 295"
+Young Cave Dragon,,,Dragon Other Cave 3Young,,,Tome of Beasts: 127
+Young Copper Dragon,"cave, desert, grassland",,Dragon Metallic Copper 3Young,,,"Monster Manual: 112, SRD 5.1: 297"
+Young Flame Dragon,,,Dragon Other Flame 3Young,,,Tome of Beasts: 130
+Young Gold Dragon,"mountain, ruins",,Dragon Metallic Gold 3Young,,,"Monster Manual: 115, SRD 5.1: 300"
+Young Green Dragon,forest,,Dragon Chromatic Green 3Young,,,"Basic Rules v1: 52, Monster Manual: 94, SRD 5.1: 285"
+Young Mithral Dragon,,,Dragon Other Mithral 3Young,,,Tome of Beasts: 134
+Young Red Dragon,mountain,,Dragon Chromatic Red 3Young,,,"Monster Manual: 98, Princes of the Apocalypse Online Supplement v1.0: 38, SRD 5.1: 288"
+Young Sea Dragon,,,Dragon Other Sea 3Young,,,Tome of Beasts: 136
+Young Silver Dragon,"arctic, mountain",,Dragon Metallic Silver 3Young,,,"Monster Manual: 118, SRD 5.1: 303"
+Young Spinosaurus,,,Dinosaur Spinosaurus Young,,,Tome of Beasts: 117
+Young Void Dragon,,,Dragon Other Void 3Young,,,Tome of Beasts: 140
+Young White Dragon,"arctic, cave, underground",,Dragon Chromatic White 3Young,,,"Monster Manual: 101, SRD 5.1: 290"
+Young Wind Dragon,,,Dragon Other Wind 3Young,,,Tome of Beasts: 144
+Zanskaran Viper,,,Snake Zanskaran Viper,,,Tome of Beasts: 354
+Zaratan,,,Zaratan,,,Tome of Beasts: 414
+Zimwi,,,Zimwi,,,Tome of Beasts: 415
+Zmey,,,Zmey,,,Tome of Beasts: 416
+Zmey Headling,,,Zmey Headling,,,Tome of Beasts: 417
+Zombie,"aquatic, arctic, cave, coast, desert, dungeon, forest, grassland, mountain, ruins, swamp, underground, urban",,Zombie,"**Zombies** are corpses imbued with a semblance of life, retaining no vestige of their former selves.",,"Basic Rules v1: 52, Monster Manual: 316, Player's Handbook: 311, SRD 5.1: 356"

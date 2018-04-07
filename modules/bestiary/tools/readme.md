@@ -59,7 +59,7 @@ $ python3 csv2xml.py --header -t compendium -r monster -x -o extra/extra.xml inp
 
 $ python3 merge_compendium.py -b source-xml/srd.xml -a source-xml/tob.xml [source-xml/data3.xml ...] -o output/allsource.xml
 
-$ python3 merge_extra.py -c output/allsource.xml -e output/extra.xml -o complete/bestiary.xml -r complete/exterr.txt
+$ python3 merge_extra.py -c output/allsource.xml -e extra/extra.xml -o complete/bestiary.xml -r complete/exterr.txt
 
 $ python xml2html.py
 
