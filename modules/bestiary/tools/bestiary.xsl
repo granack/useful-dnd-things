@@ -474,12 +474,12 @@
 
         </div> <!-- section -->
         </div> <!-- stat-block -->
-        <p>Source(s):
+        <p><a href="modules/bestiary/bsources.html" target="_blank">Source(s):
         <xsl:choose>
             <xsl:when test="$sources"><xsl:value-of select="$sources" /></xsl:when>
             <xsl:when test="not($sources)">unknown, or maybe SRD</xsl:when>
         </xsl:choose>
-        </p>
+        </a></p>
         </div> <!-- monster -->
     </xsl:for-each>
 </xsl:template>

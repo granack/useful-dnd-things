@@ -1,4 +1,5 @@
 ## Tools for Bestiary, the Useful D&D Thing module by Granack
+### AKA Granack's Useful Bestiary
 
 These tools assist in creating the `bestiary.html` file that contains
 all the monster data. They use Python3.

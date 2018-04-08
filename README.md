@@ -14,6 +14,8 @@ requires a web server: if you have python installed, run python -m SimpleHTTPSer
 so far:
 basic site is a header that has a 'module menu.' modules are loaded from folders in the '/modules/' directory. module names are taken from the directory names then Capitalized. an attempt is made to import a *modulename*.js file. This file needs to export a function *load(content)*, where content is a div representing the main content area. The load() function should call *loadMenu(Array)* where Array is an array of strings to populate the side menu. When a side menu item is clicked, it will call the exported function *menuClick(index)*, index being the index of the Array used to build the menu.
 
+If you are creating a module:
+
 module names MUST NOT contain spaces, and must only use characters in a valid file name.
 
 modules MUST export:
@@ -27,6 +29,10 @@ content div is entirely in the control of the module. do the stuff there.
 
 
 --- notices
-Bestiary is using the CSS (and used the Example HTML as an example) from https://codepen.io/retractedhack/pen/gPLpWe, which in turn is absed on https://valloric.github.io/statblock5e/
+### Bestiary is using the CSS for statbocks from https://codepen.io/retractedhack/pen/gPLpWe, which in turn is absed on https://valloric.github.io/statblock5e/
+
+### Monster data in the Bestiary come from Wizards of the Coast's System Reference Document (SRD) 5.1 and Kobold Press' Tome of Beasts, both under the Open Game License version 1.0a. This applies to `srd.xml`, `tob.xml`, respecgtivley, and their derivitive `bestiary.html`. A small amount of data (specifically: environments and publication sources) come from Kobold Fight Club data. I noted whether monsters are from the SRD or not myself, so if any SRD monsters are found that I either missed or accidentally included, please let me know so I can correct it.
+
+### Unless otherwise noted within the file, all other data or files are copyright me, granack@gmail.com, and released using [LGPL-3.0](https://github.com/granack/useful-dnd-things/blob/master/LICENSE)
 
 
